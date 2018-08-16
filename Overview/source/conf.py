@@ -207,7 +207,7 @@ html_sidebars = {}
 html_context = {
 	"display_github": True,
 	"github_user": "Homegear",
-	"github_repo": "homegear-doc",
+	"github_repo": "homegear-user-doc",
 	"github_version": "master",
 	"conf_py_path": "/Overview/source/",
 	"source_suffix": source_suffix,	
