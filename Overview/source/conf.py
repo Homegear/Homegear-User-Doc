@@ -48,7 +48,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Homegear Documentation'
+project = u'Homegear-Nutzerdokumentation'
 copyright = u'2016-2018, Homegear GmbH'
 author = u'Sathya Laufer'
 
@@ -239,7 +239,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Homegear.tex', u'Homegear Documentation',
+    (master_doc, 'Homegear.tex', u'Homegear-Nutzerdokumentation',
      u'Sathya Laufer', 'manual'),
 ]
 
@@ -269,7 +269,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'homegear', u'Homegear Documentation',
+    (master_doc, 'homegear', u'Homegear-Nutzerdokumentation',
      [author], 1)
 ]
 
@@ -283,7 +283,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Homegear', u'Homegear Documentation',
+    (master_doc, 'Homegear', u'Homegear-Nutzerdokumentation',
      author, 'Homegear', 'One line description of project.',
      'Miscellaneous'),
 ]
