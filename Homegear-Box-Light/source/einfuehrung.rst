@@ -12,6 +12,8 @@ Test.
 Überschrift 2
 =============
 
+:ref:`Interner Link auf Boxen <irgendein-text>`
+
 Überschrift 3
 -------------
 
@@ -24,6 +26,8 @@ Test.
 | Zeile        | Spalte         |
 | Zeile        | Spalte         |
 +--------------+----------------+
+
+.. _irgendein-text:
 
 .. image:: logo.png
 
