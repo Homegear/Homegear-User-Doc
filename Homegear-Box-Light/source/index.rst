@@ -5,8 +5,8 @@ Homegear-Box Light - Produktdokumentation
 
 Kurze Beschreibung des Dokumentes.
 
-Table of Contents
-=================
+Inhaltsverzeichnis
+==================
 
 .. toctree::
    :maxdepth: 2
