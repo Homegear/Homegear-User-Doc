@@ -37,15 +37,3 @@ Test.
 
 .. tip:: Ein Tipp.
 
-Einleitung
-==========
-
-Wofür benütigt man Homegear
----------------------------
-
-``Homegear ist die komfortable und sichere Lösung zur Verknüpfung und 
-  Kommunikation aller Arten von Serververbindungsfähigen Geräten im Haus.
-  Die Box funktioniert als Übersetzter, Vermittler und Verwalter welche ein- und ausgehenden Informationen der Sensoren und Aktoren regelt.
-  Im Bruchteil einer Sekunde kann beispielsweise beim Betätigen eines
-  Schalters die gewünschte Tür geöffnet und die Beleuchtung im Raum dahinter
-  eingeschalten werden.
