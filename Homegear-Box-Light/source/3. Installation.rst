@@ -1,0 +1,123 @@
+3. Installation
+***************
+
+3.1. Inbetriebnahme
+===================
+
+3.1.1. Aufbau
+-------------
+
+.. tip::  ``Bevor sie starten, überprüfen sie bitte ob alle mitgelieferten Gegenstände in gutem Zustand sind.
+ Sollten sie nicht im Guten Zustand oder nicht vollständig sein    .   
+ Diese sind unter dem Verzeichnis "Source/einleitung/Mitgeliefert" aufgelistet``
+
+- Der erste Schritt ist die Homegear-Box mit dem mitgeliefertem Netzstromkabel zu verbinden, sowie den Netzstecker mit einer Steckdose in ihrem Haus.
+  Nach dem das Netzkabel angeschlossen wurde leutet eine Rote Konroll-LED auf, die die Verbindung bestätigt.
+
+- Als nächstes wird noch das begefügte LANKabel benötigt, welches an die Homegear-Box und an die Netzwerksteckdose angeschlossen wird.
+  Nach dem das Netzwerkkabel angeschlossen wurde leuten zwei Kontroll-LEDs auf, grün(blinkend) und gelb. 
+
+Fertig, nun sendet und empfängt ihre Homegear-Box und ist bereit von innen programmiert zu werden
+
+3.1.2. Software
+---------------------
+
+Voraussetztung ist ein Netzwerkfähiger PC, Labtop, Taplet oder Smartphone
+
+
+
+Wenn die Verbindung aufgebaut wurde ist dieser Startseiteninhalt zu sehen
+
+..image:: Startseite.png
+
+Wie zu sehen ist zeigt das Dashboard Die Systeminformationen, Installierte Module, Geräte und die Netzwerkschnittstellen auf.
+Es enthält die wichtigsten Technischen Daten die man sehr überschaubar einlesen kann.
+
+3.1.2.1. Inventar
+^^^^^^^^^^^^^^^^^^
+
+Öffnet man das Inventar werden folgende Unterpunkt ausgefahren
+
+.. image:: Geräte.png
+
+3.1.2.1.1. Geräte
+"""""""""""""""
+
+Hier kann die (Dateiformat)Familie ausgewählt werden mit der das anzuschliesende Gerät arbeitet.
+nächster Punkt ist das Gerät selbst und die ...
+
+3.1.2.1.2. Gateways
+"""""""""""""""""""
+
+Hier kann die (Dateiformat)Familie und anschliesend auch der Type des Gateways ausgewählt werden
+
+3.1.2.1.3. Räume
+""""""""""""""""
+
+Hier kann der Raumname vergeben werden 
+
+3.1.2.1.4. Stockwerke
+"""""""""""""""""""""
+
+Hier kann das Stockwerk vergeben werden
+
+3.1.2.1.5. Gruppen
+""""""""""""""""""
+
+Hier kann der Gruppenname vergeben werden
+
+3.1.2.1.6. Variablen
+""""""""""""""""""""
+
+Hier kann der Variablenname vergeben werden und auch der Type definiert werden
+
+.. note:: Die (Dateiformat)Familie oder Protokollfamilie ist auf jedem Gerät vermerkt
+
+3.1.2.2. Programmierung
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Node Blue ist unsere Prgrammierplattform für die Verknüpfung der Geräte im Haus
+
+Hier werden die Verknüpfungen der Geräte bearbeitet, mehr dazu unter dem Punkt :ref:`Programmierung <Link auf Konfiguration>`
+
+3.1.2.2. Einstellungen
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: Einstellungen.png
+
+Hier befinden sich die Benutzter und Module welche wie gelistet werden wie im Inventar
+
+3.1.2.2.1. Benutzter
+"""""""""""""""""""
+
+Hier kann der Benutztername, die Sicherung über ein Passwort und zuweisung in eine Gruppe eingestellt werden
+
+3.1.2.2.2. Module
+"""""""""""""""""
+
+Hier werden die vorhandenen Module gelistet die geladen sind, es besteht die Möglichkeit diese hier zu deaktivieren oder neu zu laden
+
+3.1.2.3. Wartung
+^^^^^^^^^^^^^^^^
+
+.. image:: Wartung.png
+
+Dienste, Aktualisierungen und Sicherungen können hier überprüfen und eingesehen werden 
+
+3.1.2.3.1. Dienst
+"""""""""""""""""
+
+# Wenn man die Zentrale neu startet ...
+
+3.1.2.3.2. Aktualisierungen
+"""""""""""""""""""""""""""
+
+Wenn eine neue Aktualisierung verliegt bitte auf den Button "Aktualisierungen installieren" klicken
+
+3.1.2.3.3. Sicherung
+""""""""""""""""""""
+
+Hier kann eine Sicherung erstellt oder bei bedarf wiederhergestellt werden
+
+.. image:: logo.png
+
