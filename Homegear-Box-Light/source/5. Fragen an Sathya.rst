@@ -1,0 +1,8 @@
+Fragen an Sathya
+****************
+
+.. Frage:: Macht es bei der Homegear-Box eigentlich einen Unterschied ob man sie Herrunterfährt oder einfach den Stecker zieht
+
+.. Antwort von Sathya::
+
+.. Frage:: Werden die Falmilien vom Kunden installiert 

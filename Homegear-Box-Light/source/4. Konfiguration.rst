@@ -1,2 +1,14 @@
-1. Konfiguration
+.. _Link auf Konfiguration:
+4. Konfiguration
 ****************
+
+4.1. Node Blue
+==============
+
+4.1.1. Öffnen von Node Blue
+---------------------------
+
+Node Blue ist die Programmierplattform mit der die Verknüpfung aller Geräte im Haus
+
+# unter diesem link öffnet `Node Blue <http://192.168.4.121:2001/node-blue/#flow/6f817569.5564b>`
+

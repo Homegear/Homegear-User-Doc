@@ -7,15 +7,19 @@
 3.1.1. Aufbau
 -------------
 
-.. tip::  ``Bevor sie starten, überprüfen sie bitte ob alle mitgelieferten Gegenstände in gutem Zustand sind.
- Sollten sie nicht im Guten Zustand oder nicht vollständig sein    .   
- Diese sind unter dem Verzeichnis "Source/einleitung/Mitgeliefert" aufgelistet``
+.. Tipp:: ``Bevor sie starten, überprüfen sie bitte ob alle mitgelieferten Gegenstände in gutem Zustand sind.
+ Diese sind unter dem Verzeichnis "Source/einleitung/Mitgeliefert" aufgelistet.
+ Sollten sie nicht im Guten Zustand oder nicht vollständig sein Senden sie sie bitte an uns zurück.``
 
 - Der erste Schritt ist die Homegear-Box mit dem mitgeliefertem Netzstromkabel zu verbinden, sowie den Netzstecker mit einer Steckdose in ihrem Haus.
-  Nach dem das Netzkabel angeschlossen wurde leutet eine Rote Konroll-LED auf, die die Verbindung bestätigt.
+  Nach dem das Netzkabel angeschlossen wurde leuchtet eine Rote Konroll-LED auf, die die Verbindung bestätigt.
+
+.. Achtung:: Wenn sie den Netzstecker ausstecken, um die Homegear-Box ausschalten, warten sie mindestens 5 Sekunden bevor sie sie wieder einstecken    
 
 - Als nächstes wird noch das begefügte LANKabel benötigt, welches an die Homegear-Box und an die Netzwerksteckdose angeschlossen wird.
-  Nach dem das Netzwerkkabel angeschlossen wurde leuten zwei Kontroll-LEDs auf, grün(blinkend) und gelb. 
+  Nach dem das Netzwerkkabel angeschlossen wurde leuchten zwei Kontroll-LEDs auf, grün(blinkend) und gelb(leuchtend). 
+
+Wer die Pro Version verwendet oder die zweite Box montieren will muss nur die mitgelieferte Brücke in die dafür vorgesehenen Steckverbindungen beider Boxen einsetzen um eine Verbindung zwischen der Homegear-Box und dem Adapter herzustellen
 
 Fertig, nun sendet und empfängt ihre Homegear-Box und ist bereit von innen programmiert zu werden
 
@@ -24,100 +28,141 @@ Fertig, nun sendet und empfängt ihre Homegear-Box und ist bereit von innen prog
 
 Voraussetztung ist ein Netzwerkfähiger PC, Labtop, Taplet oder Smartphone
 
+Stellen sie sicher, dass sich ihre Homegear-Box im gleichen Heimnetz befindet wir ihr Coumputer
 
+Starten sie wenn nicht schon geschehen ihren PC, Labtop oder Sonstiges und öffnen sie den Internetbrowser   
+
+Um die Homegear-Box zu finden braucht man einen Internetprotokollscaner, den man unter diesem Link herrunterladen kann:
+`Advanced IP Scanner <https://www.advanced-ip-scanner.com/de/>`
+
+Als nächstes bitte auf die Downloaddatei klicken und ausführen
+
+Dann die gewünschte Sprache wählen und mit "Ok" bestätigen
+
+Wer die Datei installieren möchte kann auf "Weiter >" klicken, wer sie sich nicht installieren will wählt den Punkt neben Ausführen an und klickt "Weiter >"
+
+Lesen sie bitte die Lizenzvereinbahrung, klicken auf den Punkt neben "ich akzeptiere die Vereinbahrung" und bestätigen sie mit dem Button "Ausführen"
+
+Das Fenster mit dem Namen "Advanced IP Scanner", dass sich nach der Bestätigung geöffnet hat enthält einen Button "Scannen", mit dem die Homegear-Box gesucht wird 
+
+Das Programm wird die Geräte anzeigen, welche sich in der Nähe des Computers befinden bzw. im gleichen LANNetz verbunden sind
+
+Nachdem das Programm fertig ist muss nach "Raspberry Pi Foundation" gesucht werden, um die IP-Adresse(Name) zu finden
+
+.. Achtung:: In der Spalte wird jetzt der "Name" angezeigt, der aus einer **Reihe von Zahlen besteht**, diesen **Bitte in irgend einer Form speichern** 
+
+Nun ist ihre Homegear-Box gefunden, um sich mit ihr zu verbinden muss "Name":2001/admin/ in den Internetbrowser eingegeben und mit der 
+Entertaste bestätigt werden  
 
 Wenn die Verbindung aufgebaut wurde ist dieser Startseiteninhalt zu sehen
 
-..image:: Startseite.png
+.. image:: Startseite.png
 
-Wie zu sehen ist zeigt das Dashboard Die Systeminformationen, Installierte Module, Geräte und die Netzwerkschnittstellen auf.
-Es enthält die wichtigsten Technischen Daten die man sehr überschaubar einlesen kann.
+.. Anmeldung:: Hier dürfen sie sich einen Anmeldenamen/Benutzernamen ausdenken und ein Passwort überlegen, welches sie auch unbedingt in irgendeiner Form speichern sollten. Es spielt keine Rolle wie klein oder groß ihr Benutzername bzw. Passwort ist, dieser wird allein von Eingabespeicher begrenzt. Bitte geben sie dann anschliesend ihren Benutzernamen und ihr Passwort ein, bestätigen sie ihr Passwort und klicken sie auf "Anmelden".
 
-3.1.2.1. Inventar
-^^^^^^^^^^^^^^^^^^
+..image:: Dashboard.png
 
-Öffnet man das Inventar werden folgende Unterpunkt ausgefahren
+Wie zu sehen ist zeigt das Dashboard die Systeminformationen, installierte Module, Geräte und die Netzwerkschnittstellen auf.
+Es enthält die wichtigsten Technischen Daten, die sehr überschaubar einlesen kann.
+
+	3.1.2.1. Inventar
+^^^^^^^^^^^^^^^^^^^^^^
+
+	Öffnet man das Inventar werden folgende Unterpunkt ausgefahren
 
 .. image:: Geräte.png
 
-3.1.2.1.1. Geräte
-"""""""""""""""
+		3.1.2.1.1. Geräte
+"""""""""""""""""""""""""
 
-Hier kann die (Dateiformat)Familie ausgewählt werden mit der das anzuschliesende Gerät arbeitet.
-nächster Punkt ist das Gerät selbst und die ...
+		Hier kann die (Dateiformat)Familie ausgewählt werden mit der das anzuschliesende Gerät arbeitet.
+		nächster Punkt ist das Gerät selbst und der Type des Gateways 
 
-3.1.2.1.2. Gateways
-"""""""""""""""""""
+.. note :: ein Gateway ist sowas wie ein Übersetzter, es übersetzt die Sprache eines Gerätes in die, mit der die Homegear-Box kommuniziert, wenn alle benötigten Gateways vorhanden sind können sich alle Geräte mitteinander verbinden (kommunizieren)
 
-Hier kann die (Dateiformat)Familie und anschliesend auch der Type des Gateways ausgewählt werden
+		3.1.2.1.2. Gateways
+"""""""""""""""""""""""""""
 
-3.1.2.1.3. Räume
-""""""""""""""""
+		Hier kann die (Dateiformat)Familie und anschliesend auch der Type des Gateways ausgewählt werden
 
-Hier kann der Raumname vergeben werden 
+		3.1.2.1.3. Räume
+""""""""""""""""""""""""
 
-3.1.2.1.4. Stockwerke
-"""""""""""""""""""""
+		Der Raumname ist beim anklicken des Bottens "Raum hinzufügen" zu erstellen bzw. zu ändern.
+		Wenn das Abschalten eines Raumes erwünscht wird kann dies so in z.B. Node Blude einfach eingestellt werden 
+		mehr dazu unter :ref:`Konfiguration <Link auf Konfiguration>`   
 
-Hier kann das Stockwerk vergeben werden
+		3.1.2.1.4. Stockwerke
+"""""""""""""""""""""""""""""
 
-3.1.2.1.5. Gruppen
-""""""""""""""""""
+		Es hat die Gleiche Funktion wie Räume, nur das die Funktion Stockwerke alle Räume in diesem Stockwerk einbinden soll,
+		um ein ganze Wohnung oder Ebene im Haus auf einen Befehl hin ansteuern zu können 
 
-Hier kann der Gruppenname vergeben werden
+		3.1.2.1.5. Gruppen
+""""""""""""""""""""""""""
 
-3.1.2.1.6. Variablen
-""""""""""""""""""""
+		Mit Gruppen sind Geräteverknüpfungen gemeint, die man gerne verbunden hätte und sich mit einem Befehl steuern lassen 
+		Somit lassen sich alle Lichter oder nur gewünschte LichterGruppen kontrollieren, was sehr komfortabel ist   
 
-Hier kann der Variablenname vergeben werden und auch der Type definiert werden
+		3.1.2.1.6. Variablen
+""""""""""""""""""""""""""""
+
+		Hier kann der Variablenname für die Geräte vergeben und auch der Type definiert werden
+		Auserdem ist sie "Global" und kann auch in anderen Programmierplattformen unter dem gleichen Namen verwendet werden 
+
+.. tip:: Es ist wichtig sich Räume Stockwerke oder Gruppen anzulegen um einen Überblick für alle angeschlossenen Systeme zu haben 
 
 .. note:: Die (Dateiformat)Familie oder Protokollfamilie ist auf jedem Gerät vermerkt
 
-3.1.2.2. Programmierung
-^^^^^^^^^^^^^^^^^^^^^^^
+	3.1.2.2. Programmierung
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Node Blue ist unsere Prgrammierplattform für die Verknüpfung der Geräte im Haus
+	Node Blue ist unsere Prgrammierplattform für die Verknüpfung der Geräte im Haus
 
-Hier werden die Verknüpfungen der Geräte bearbeitet, mehr dazu unter dem Punkt :ref:`Programmierung <Link auf Konfiguration>`
+	Hier werden die Verknüpfungen der Geräte bearbeitet, mehr dazu unter dem Punkt :ref:`Programmierung <Link auf Konfiguration>`
 
-3.1.2.2. Einstellungen
-^^^^^^^^^^^^^^^^^^^^^^
+	3.1.2.3. Einstellungen
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: Einstellungen.png
 
-Hier befinden sich die Benutzter und Module welche wie gelistet werden wie im Inventar
+	Hier befinden sich die Benutzter und Module welche wie gelistet werden wie im Inventar
 
-3.1.2.2.1. Benutzter
-"""""""""""""""""""
+		3.1.2.3.1. Benutzter
+""""""""""""""""""""""""""""
 
-Hier kann der Benutztername, die Sicherung über ein Passwort und zuweisung in eine Gruppe eingestellt werden
+		Hier kann der Benutzername, die Sicherung über ein Passwort und Zuweisung in eine Gruppe eingestellt werden
 
-3.1.2.2.2. Module
-"""""""""""""""""
+		3.1.2.3.2. Module
+"""""""""""""""""""""""""
 
-Hier werden die vorhandenen Module gelistet die geladen sind, es besteht die Möglichkeit diese hier zu deaktivieren oder neu zu laden
+		Hier werden die vorhandenen Module gelistet die geladen sind, es besteht die Möglichkeit diese hier zu deaktivieren oder neu zu laden
 
-3.1.2.3. Wartung
-^^^^^^^^^^^^^^^^
+	3.1.2.4. Wartung
+^^^^^^^^^^^^^^^^^^^^
 
 .. image:: Wartung.png
 
-Dienste, Aktualisierungen und Sicherungen können hier überprüfen und eingesehen werden 
+	Dienste, Aktualisierungen und Sicherungen können hier überprüfen und eingesehen werden 
 
-3.1.2.3.1. Dienst
-"""""""""""""""""
+		3.1.2.4.1. Dienst
+""""""""""""""""""""""""""
 
-# Wenn man die Zentrale neu startet ...
+		Wenn man die Zentrale neu startet wird Ihre "Homegear-Box" neu gestartet 
 
-3.1.2.3.2. Aktualisierungen
-"""""""""""""""""""""""""""
+		3.1.2.4.2. Aktualisierungen
+""""""""""""""""""""""""""""""""""""
 
-Wenn eine neue Aktualisierung verliegt bitte auf den Button "Aktualisierungen installieren" klicken
+		Wenn eine neue Aktualisierung vorliegt bitte auf den Button "Aktualisierungen installieren" klicken
 
-3.1.2.3.3. Sicherung
-""""""""""""""""""""
+		3.1.2.4.3. Sicherung
+""""""""""""""""""""""""""""
 
-Hier kann eine Sicherung erstellt oder bei bedarf wiederhergestellt werden
+		Hier kann eine Sicherung erstellt oder bei Bedarf wiederhergestellt werden
+
+		Ihr Profil können sie über der rechten Oberen Button anwählen und änderen
+
+.. image:: Profil.png
 
 .. image:: logo.png
 
