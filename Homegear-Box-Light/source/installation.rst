@@ -1,11 +1,11 @@
-3. Installation
-***************
+Installation
+************
 
-3.1. Inbetriebnahme
-===================
+Inbetriebnahme
+==============
 
-3.1.1. Aufbau
--------------
+Aufbau
+------
 
 .. tip:: ``Bevor sie starten, überprüfen sie bitte ob alle mitgelieferten Gegenstände in gutem Zustand sind.
  Diese sind unter dem Verzeichnis "Source/einleitung/Mitgeliefert" aufgelistet.
@@ -25,13 +25,11 @@ Fertig, nun sendet und empfängt ihre Homegear-Box und ist bereit von innen prog
 
 
 
-3.1.2. Software
----------------------
+Software
+--------
 
 1. Voraussetztung ist ein Netzwerkfähiger PC, Labtop, Taplet oder Smartphone
-
 2. Stellen sie sicher, dass sich ihre Homegear-Box im gleichen Heimnetz befindet wir ihr Coumputer
-
 3. Starten sie wenn nicht schon geschehen ihren PC, Labtop oder Sonstiges und öffnen sie den Internetbrowser   
 
 Um die Homegear-Box zu finden braucht man einen Internetprotokollscaner, den man unter diesem Link herrunterladen kann:
@@ -80,52 +78,52 @@ Wenn sie fertig sind klicken sie auf "Speichern".
 
 
 
-3.1.2.1. Inventar
-^^^^^^^^^^^^^^^^^^^^^^
+Inventar
+^^^^^^^^
 
-	Öffnet man das Inventar werden folgende Unterpunkt ausgefahren
+Öffnet man das Inventar werden folgende Unterpunkt ausgefahren
 
 .. image:: Geräte.png
 
-3.1.2.1.1. Geräte
-"""""""""""""""""""""""""
+Geräte
+""""""
 
-		Hier kann die (Dateiformat)Familie ausgewählt werden mit der das anzuschliesende Gerät arbeitet.
-		nächster Punkt ist das Gerät selbst und der Type des Gateways 
+Hier kann die (Dateiformat)Familie ausgewählt werden mit der das anzuschliesende Gerät arbeitet.
+nächster Punkt ist das Gerät selbst und der Type des Gateways 
 
 .. note :: ein Gateway ist sowas wie ein Übersetzter, es übersetzt die Sprache eines Gerätes in die, mit der die Homegear-Box kommuniziert, wenn alle benötigten Gateways vorhanden sind können sich alle Geräte mitteinander verbinden (kommunizieren)
 
 
-3.1.2.1.2. Gateways
-"""""""""""""""""""""""""""
+Gateways
+""""""""
 
-		Hier kann die (Dateiformat)Familie und anschliesend auch der Type des Gateways ausgewählt werden
+Hier kann die (Dateiformat)Familie und anschliesend auch der Type des Gateways ausgewählt werden
 
 
-3.1.2.1.3. Räume
-""""""""""""""""""""""""
+Räume
+"""""
 
 		Der Raumname ist beim anklicken des Bottens "Raum hinzufügen" zu erstellen bzw. zu ändern.
 		Wenn das Abschalten eines Raumes erwünscht wird kann dies so in z.B. Node Blude einfach eingestellt werden 
 		mehr dazu unter :ref:`Konfiguration <Link auf Konfiguration>`   
 
 
-3.1.2.1.4. Stockwerke
-"""""""""""""""""""""""""""""
+Stockwerke
+""""""""""
 
 		Es hat die Gleiche Funktion wie Räume, nur dass die Funktion Stockwerke alle Räume in diesem Stockwerk einbinden soll,
 		um ein ganze Wohnung oder Ebene im Haus auf einen Befehl hin ansteuern zu können 
 
 
-3.1.2.1.5. Gruppen
-""""""""""""""""""""""""""
+Gruppen
+"""""""
 
 		Mit Gruppen sind Geräteverknüpfungen gemeint, die man gerne verbunden hätte und sich mit einem Befehl steuern lassen 
 		Somit lassen sich alle Lichter oder nur gewünschte LichterGruppen kontrollieren, was sehr komfortabel ist   
 
 
-3.1.2.1.6. Variablen
-""""""""""""""""""""""""""""
+Variablen
+"""""""""
 
 		Hier kann der Variablenname für die Geräte vergeben und auch der Type definiert werden
 		Auserdem ist sie "Global" und kann auch in anderen Programmierplattformen unter dem gleichen Namen verwendet werden 
@@ -137,60 +135,60 @@ Wenn sie fertig sind klicken sie auf "Speichern".
 
 
 
-3.1.2.2. Programmierung
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Programmierung
+^^^^^^^^^^^^^^
 
-	Node Blue ist unsere Prgrammierplattform für die Verknüpfung der Geräte im Haus
+Node-BLUE ist unsere Prgrammierplattform für die Verknüpfung der Geräte im Haus
 
-	Hier werden die Verknüpfungen der Geräte bearbeitet, mehr dazu unter dem Punkt :ref:`Programmierung <Link auf Konfiguration>`
-
-
+Hier werden die Verknüpfungen der Geräte bearbeitet, mehr dazu unter dem Punkt :ref:`Programmierung <Link auf Konfiguration>`
 
 
-3.1.2.3. Einstellungen
-^^^^^^^^^^^^^^^^^^^^^^
+
+
+Einstellungen
+^^^^^^^^^^^^^
 
 .. image:: Einstellungen.png
 
 Hier befinden sich die Benutzter und Module welche wie gelistet werden wie im Inventar
 
 
-3.1.2.3.1. Benutzter
-""""""""""""""""""""
+Benutzter
+"""""""""
 
 Hier kann der Benutzername, die Sicherung über ein Passwort und Zuweisung in eine Gruppe eingestellt werden
 
 
-3.1.2.3.2. Module
-"""""""""""""""""
+Module
+""""""
 
 Hier werden die vorhandenen Module gelistet die geladen sind, es besteht die Möglichkeit diese hier zu deaktivieren oder neu zu laden
 
 
 
 
-3.1.2.4. Wartung
-^^^^^^^^^^^^^^^^
+Wartung
+^^^^^^^
 
 .. image:: Wartung.png
 
 Dienste, Aktualisierungen und Sicherungen können hier überprüfen und eingesehen werden 
 
 
-3.1.2.4.1. Dienst
-"""""""""""""""""
+Dienst
+""""""
 
 Wenn man die Zentrale neu startet wird Ihre "Homegear-Box" neu gestartet 
 
 
-3.1.2.4.2. Aktualisierungen
-"""""""""""""""""""""""""""
+Aktualisierungen
+""""""""""""""""
 
 Wenn eine neue Aktualisierung vorliegt bitte auf den Button "Aktualisierungen installieren" klicken
 
 
-3.1.2.4.3. Sicherung
-""""""""""""""""""""
+Sicherung
+"""""""""
 
 Hier kann eine Sicherung erstellt oder bei Bedarf wiederhergestellt werden
 
