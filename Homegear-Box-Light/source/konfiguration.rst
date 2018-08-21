@@ -1,18 +1,21 @@
-.. _Link auf Konfiguration:
-4. Konfiguration
-****************
+.. _Link_auf_Konfiguration:
 
-4.1. Node-BLUE
-==============
+Konfiguration
+*************
 
-4.1.1. Öffnen von Node-BLUE
----------------------------
+Node-BLUE
+=========
+
+Öffnen von Node-BLUE
+--------------------
 
 Node-BLUE ist die Programmierplattform mit der die Verknüpfung aller Geräte im Haus hergestellt wird
 
 .. unter diesem link öffnet `Node-BLUE <http://homegear-ip:2001/node-blue/>`
 
+
 .. image:: Node-BLUE.png
+
 
 In der linken Spalte befinden sich die Bausteine, die man für die Programmierung benötigt
 
