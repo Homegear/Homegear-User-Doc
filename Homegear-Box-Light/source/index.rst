@@ -13,4 +13,10 @@ Inhaltsverzeichnis
    :numbered:
 
    einfuehrung
+   rueckmeldung
+   inbetriebnahme
+   installation
+   konfiguration
+   fragen
+   schwierigkeiten
    lizenz

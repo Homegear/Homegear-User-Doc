@@ -1,39 +1,70 @@
-Einführung
-**********
+1. Einführung
+*************
 
-Test.
+1.1 Wofür benötigt man Homegear
+===============================
 
-* this is
-* a list
-  
-#. Nummerierte Aufzählung
-#. ...
+Die Homegear-Box ist die komfortable und sichere Lösung zur Verknüpfung und 
+Kommunikation aller Arten von elektronischen Geräten im Haus.
+Die Box funktioniert als Übersetzter, Vermittler und Verwalter welche 
+ein- und ausgehenden Informationen der Sensoren und Aktoren steuert.
+Im Bruchteil einer Sekunde kann beispielsweise beim Betätigen eines
+Schalters die gewünschte Tür geöffnet und die Beleuchtung im Raum dahinter
+eingeschalten werden.
 
-Überschrift 2
-=============
+1.2. Technische Daten
+=====================
 
-:ref:`Interner Link auf Boxen <irgendein-text>`
+1.2.1. Software
+---------------
++----------------------------+---------------------------+
+|Betriebsystem               |Linux /                    |
++----------------------------+---------------------------+
+|Programmierplattform        |Node Blue                  |
++----------------------------+---------------------------+
+|Kommunikationsart           |WLAN / LAN                 |
++----------------------------+---------------------------+
 
-Überschrift 3
--------------
+.. note:: Die Homegear-Box enthält alle vorinstallierte Programme, die für den sofortigen Einsatz benötigt werden
 
-`Homegear-Website <https://homegear.eu>`_
+1.2.2. Hardware Spezifikation
+-----------------------------
 
-+--------------+----------------+
-| Tabellenkopf | Tabellenkopf 2 |
-+==============+================+
-| Zeile        | Spalte         |
-| Zeile        | Spalte         |
-| Zeile        | Spalte         |
-+--------------+----------------+
++----------------------------+---------------------------+
+|CPU                         |                           |
++----------------------------+---------------------------+
+|SD-Karte                    |                           |
++----------------------------+---------------------------+
+|Onboard Speicher            |                           |
++----------------------------+---------------------------+
+|Onboard Netzwerk            |                           |
++----------------------------+---------------------------+
+|Audio                       |3,5 Jack                   |
++----------------------------+---------------------------+
+|Video                       |HDMI                       |
++----------------------------+---------------------------+
+|Energiequelle               |                           |
++----------------------------+---------------------------+
+|USB_Port                    |                           |
++----------------------------+---------------------------+
+|Button                      |                           |
++----------------------------+---------------------------+
+|LED                         |Grüne Status LED           |
+|                            |Rote Power LED             |
++----------------------------+---------------------------+
 
-.. _irgendein-text:
+1.3. Mitgeliefert
+=================
 
-.. image:: logo.png
+* Homegear-Box
 
-.. note:: Notiz
+* SD-Karte
 
-.. caution:: Achtung
+* LANKabel
 
-.. tip:: Ein Tipp.
+* Stromversorgungskabel
+
+
+
+
 

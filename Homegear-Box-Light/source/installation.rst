@@ -148,51 +148,51 @@ Wenn sie fertig sind klicken sie auf "Speichern".
 
 
 3.1.2.3. Einstellungen
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: Einstellungen.png
 
-	Hier befinden sich die Benutzter und Module welche wie gelistet werden wie im Inventar
+Hier befinden sich die Benutzter und Module welche wie gelistet werden wie im Inventar
 
 
 3.1.2.3.1. Benutzter
-""""""""""""""""""""""""""""
+""""""""""""""""""""
 
-		Hier kann der Benutzername, die Sicherung über ein Passwort und Zuweisung in eine Gruppe eingestellt werden
+Hier kann der Benutzername, die Sicherung über ein Passwort und Zuweisung in eine Gruppe eingestellt werden
 
 
 3.1.2.3.2. Module
-"""""""""""""""""""""""""
+"""""""""""""""""
 
-		Hier werden die vorhandenen Module gelistet die geladen sind, es besteht die Möglichkeit diese hier zu deaktivieren oder neu zu laden
+Hier werden die vorhandenen Module gelistet die geladen sind, es besteht die Möglichkeit diese hier zu deaktivieren oder neu zu laden
 
 
 
 
 3.1.2.4. Wartung
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 
 .. image:: Wartung.png
 
-	Dienste, Aktualisierungen und Sicherungen können hier überprüfen und eingesehen werden 
+Dienste, Aktualisierungen und Sicherungen können hier überprüfen und eingesehen werden 
 
 
 3.1.2.4.1. Dienst
-""""""""""""""""""""""""""
+"""""""""""""""""
 
-		Wenn man die Zentrale neu startet wird Ihre "Homegear-Box" neu gestartet 
+Wenn man die Zentrale neu startet wird Ihre "Homegear-Box" neu gestartet 
 
 
 3.1.2.4.2. Aktualisierungen
-""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""
 
-		Wenn eine neue Aktualisierung vorliegt bitte auf den Button "Aktualisierungen installieren" klicken
+Wenn eine neue Aktualisierung vorliegt bitte auf den Button "Aktualisierungen installieren" klicken
 
 
 3.1.2.4.3. Sicherung
-""""""""""""""""""""""""""""
+""""""""""""""""""""
 
-		Hier kann eine Sicherung erstellt oder bei Bedarf wiederhergestellt werden
+Hier kann eine Sicherung erstellt oder bei Bedarf wiederhergestellt werden
 
 
 .. image:: logo.png

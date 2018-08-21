@@ -3,8 +3,8 @@ Inbetriebnahme
 
 Schritt 1 - Aufbau
 ==================
-.. tip::  ``Bevor sie starten, überprüfen sie bitte ob sich alle mitgelieferten Gegenstände bei ihnen befinden.
- Diese sind unter dem Verzeichnis "Source/einleitung/Mitgeliefert" aufgelistet``
+.. tip:: ``Bevor sie starten, überprüfen sie bitte ob sich alle mitgelieferten Gegenstände bei ihnen befinden.
+   Diese sind unter dem Verzeichnis "Source/einleitung/Mitgeliefert" aufgelistet``
 
 #. 
 #.
