@@ -79,30 +79,30 @@ Es enthält die wichtigsten Technischen Daten, die sehr überschaubar einlesen k
 Wenn sie fertig sind klicken sie auf "Speichern".
 
 
-^^^^^^^^^^^^^^^^^^^^^^
-	3.1.2.1. Inventar
 
+3.1.2.1. Inventar
+^^^^^^^^^^^^^^^^^^^^^^
 
 	Öffnet man das Inventar werden folgende Unterpunkt ausgefahren
 
 .. image:: Geräte.png
-"""""""""""""""""""""""""
-		3.1.2.1.1. Geräte
 
+3.1.2.1.1. Geräte
+"""""""""""""""""""""""""
 
 		Hier kann die (Dateiformat)Familie ausgewählt werden mit der das anzuschliesende Gerät arbeitet.
 		nächster Punkt ist das Gerät selbst und der Type des Gateways 
 
 .. note :: ein Gateway ist sowas wie ein Übersetzter, es übersetzt die Sprache eines Gerätes in die, mit der die Homegear-Box kommuniziert, wenn alle benötigten Gateways vorhanden sind können sich alle Geräte mitteinander verbinden (kommunizieren)
 
-"""""""""""""""""""""""""""
-		3.1.2.1.2. Gateways
 
+3.1.2.1.2. Gateways
+"""""""""""""""""""""""""""
 
 		Hier kann die (Dateiformat)Familie und anschliesend auch der Type des Gateways ausgewählt werden
 
 """"""""""""""""""""""""
-		3.1.2.1.3. Räume
+3.1.2.1.3. Räume
 
 
 		Der Raumname ist beim anklicken des Bottens "Raum hinzufügen" zu erstellen bzw. zu ändern.
@@ -110,21 +110,21 @@ Wenn sie fertig sind klicken sie auf "Speichern".
 		mehr dazu unter :ref:`Konfiguration <Link auf Konfiguration>`   
 
 """""""""""""""""""""""""""""
-		3.1.2.1.4. Stockwerke
+3.1.2.1.4. Stockwerke
 
 
 		Es hat die Gleiche Funktion wie Räume, nur das die Funktion Stockwerke alle Räume in diesem Stockwerk einbinden soll,
 		um ein ganze Wohnung oder Ebene im Haus auf einen Befehl hin ansteuern zu können 
 
 """"""""""""""""""""""""""
-		3.1.2.1.5. Gruppen
+3.1.2.1.5. Gruppen
 
 
 		Mit Gruppen sind Geräteverknüpfungen gemeint, die man gerne verbunden hätte und sich mit einem Befehl steuern lassen 
 		Somit lassen sich alle Lichter oder nur gewünschte LichterGruppen kontrollieren, was sehr komfortabel ist   
 
 """"""""""""""""""""""""""""
-		3.1.2.1.6. Variablen
+3.1.2.1.6. Variablen
 
 
 		Hier kann der Variablenname für die Geräte vergeben und auch der Type definiert werden
@@ -137,7 +137,7 @@ Wenn sie fertig sind klicken sie auf "Speichern".
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-	3.1.2.2. Programmierung
+3.1.2.2. Programmierung
 
 
 	Node Blue ist unsere Prgrammierplattform für die Verknüpfung der Geräte im Haus
@@ -147,7 +147,7 @@ Wenn sie fertig sind klicken sie auf "Speichern".
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-	3.1.2.3. Einstellungen
+3.1.2.3. Einstellungen
 
 
 .. image:: Einstellungen.png
@@ -155,13 +155,13 @@ Wenn sie fertig sind klicken sie auf "Speichern".
 	Hier befinden sich die Benutzter und Module welche wie gelistet werden wie im Inventar
 
 """"""""""""""""""""""""""""
-		3.1.2.3.1. Benutzter
+3.1.2.3.1. Benutzter
 
 
 		Hier kann der Benutzername, die Sicherung über ein Passwort und Zuweisung in eine Gruppe eingestellt werden
 
 """""""""""""""""""""""""
-		3.1.2.3.2. Module
+3.1.2.3.2. Module
 
 
 		Hier werden die vorhandenen Module gelistet die geladen sind, es besteht die Möglichkeit diese hier zu deaktivieren oder neu zu laden
@@ -169,7 +169,7 @@ Wenn sie fertig sind klicken sie auf "Speichern".
 
 
 ^^^^^^^^^^^^^^^^^^^^
-	3.1.2.4. Wartung
+3.1.2.4. Wartung
 
 
 .. image:: Wartung.png
@@ -177,19 +177,19 @@ Wenn sie fertig sind klicken sie auf "Speichern".
 	Dienste, Aktualisierungen und Sicherungen können hier überprüfen und eingesehen werden 
 
 """"""""""""""""""""""""""
-		3.1.2.4.1. Dienst
+3.1.2.4.1. Dienst
 
 
 		Wenn man die Zentrale neu startet wird Ihre "Homegear-Box" neu gestartet 
 
 """"""""""""""""""""""""""""""""""""
-		3.1.2.4.2. Aktualisierungen
+3.1.2.4.2. Aktualisierungen
 
 
 		Wenn eine neue Aktualisierung vorliegt bitte auf den Button "Aktualisierungen installieren" klicken
 
 """"""""""""""""""""""""""""
-		3.1.2.4.3. Sicherung
+3.1.2.4.3. Sicherung
 
 
 		Hier kann eine Sicherung erstellt oder bei Bedarf wiederhergestellt werden
