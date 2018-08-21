@@ -7,7 +7,7 @@
 Die Homegear-Box ist die komfortable und sichere Lösung zur Verknüpfung und 
 Kommunikation aller Arten von elektronischen Geräten im Haus.
 Die Box funktioniert als Übersetzter, Vermittler und Verwalter welche 
-ein- und ausgehenden Informationen der Sensoren und Aktoren regelt.
+ein- und ausgehenden Informationen der Sensoren und Aktoren steuert.
 Im Bruchteil einer Sekunde kann beispielsweise beim Betätigen eines
 Schalters die gewünschte Tür geöffnet und die Beleuchtung im Raum dahinter
 eingeschalten werden.
@@ -25,7 +25,7 @@ eingeschalten werden.
 |Kommunikationsart           |WLAN / LAN                 |
 +----------------------------+---------------------------+
 
-#.. note:: Die Homegear-Box enthält alle vorinstallierte Programme, die für den sofortigen Einsatz benötigt werden
+.. note:: Die Homegear-Box enthält alle vorinstallierte Programme, die für den sofortigen Einsatz benötigt werden
 
 1.2.2. Hardware Spezifikation
 -----------------------------
@@ -47,7 +47,7 @@ eingeschalten werden.
 +----------------------------+---------------------------+
 |USB_Port                    |                           |
 +----------------------------+---------------------------+
-|Button                      | -                         |
+|Button                      |                           |
 +----------------------------+---------------------------+
 |LED                         |Grüne Status LED           |
 |                            |Rote Power LED             |

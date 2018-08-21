@@ -8,7 +8,20 @@
 4.1.1. Öffnen von Node Blue
 ---------------------------
 
-Node Blue ist die Programmierplattform mit der die Verknüpfung aller Geräte im Haus
+Node Blue ist die Programmierplattform mit der die Verknüpfung aller Geräte im Haus hergestellt wird
 
-# unter diesem link öffnet `Node Blue <http://192.168.4.121:2001/node-blue/#flow/6f817569.5564b>`
+.. unter diesem link öffnet `Node Blue <http://192.168.4.121:2001/node-blue/#flow/6f817569.5564b>`
 
+.. image:: Node Blue.png
+
+In der linken Spalte befinden sich die Bausteine, die man für die Programmierung benötigt
+
+Klickt man beispielsweise auf "input" öffnet sich die darunter ein Abschnitt mit neun verschiedenen Punkten 
+
+Angenommen man möchten ein Schalter mit einer Lampe verknüpfen, sodass die Lampe mit einem Tastendruck auf den Schalter aufleutet 
+
+So klickt und hält man die Maustaste gedrückt um den Baustein "Variable" aus der linken Spalte in des Feld "Flow 1" zu bewegen
+
+Alle Bausteine lassen sich so verschieben und verbinden 
+
+Wenn man eine Verbindung zwischen zwei Geräten hergestellt hat muss nur noch auf den Button "Deploy" in der Oberen Rechten Ecke gekickt werden und man kann die Verbindung sofort testen und gegebenenfalls anpassen 
