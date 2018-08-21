@@ -1,8 +1,8 @@
-1. Einführung
-*************
+Einführung
+**********
 
-1.1 Wofür benötigt man Homegear
-===============================
+Wofür wird Homegear benötigt
+============================
 
 Die Homegear-Box ist die komfortable und sichere Lösung zur Verknüpfung und 
 Kommunikation aller Arten von elektronischen Geräten im Haus.
@@ -12,23 +12,23 @@ Im Bruchteil einer Sekunde kann beispielsweise beim Betätigen eines
 Schalters die gewünschte Tür geöffnet und die Beleuchtung im Raum dahinter
 eingeschalten werden.
 
-1.2. Technische Daten
-=====================
+Technische Daten
+================
 
-1.2.1. Software
----------------
+Software
+--------
 +----------------------------+---------------------------+
 |Betriebsystem               |Linux /                    |
 +----------------------------+---------------------------+
-|Programmierplattform        |Node Blue                  |
+|Programmierplattform        |Node-BLUE                  |
 +----------------------------+---------------------------+
 |Kommunikationsart           |WLAN / LAN                 |
 +----------------------------+---------------------------+
 
 .. note:: Die Homegear-Box enthält alle vorinstallierte Programme, die für den sofortigen Einsatz benötigt werden
 
-1.2.2. Hardware Spezifikation
------------------------------
+Hardware Spezifikation
+----------------------
 
 +----------------------------+---------------------------+
 |CPU                         |                           |
@@ -53,8 +53,8 @@ eingeschalten werden.
 |                            |Rote Power LED             |
 +----------------------------+---------------------------+
 
-1.3. Mitgeliefert
-=================
+Mitgeliefert
+============
 
 * Homegear-Box
 
