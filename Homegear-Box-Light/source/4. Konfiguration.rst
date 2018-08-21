@@ -2,17 +2,17 @@
 4. Konfiguration
 ****************
 
-4.1. Node Blue
+4.1. Node-BLUE
 ==============
 
-4.1.1. Öffnen von Node Blue
+4.1.1. Öffnen von Node-BLUE
 ---------------------------
 
-Node Blue ist die Programmierplattform mit der die Verknüpfung aller Geräte im Haus hergestellt wird
+Node-BLUE ist die Programmierplattform mit der die Verknüpfung aller Geräte im Haus hergestellt wird
 
-.. unter diesem link öffnet `Node Blue <http://192.168.4.121:2001/node-blue/#flow/6f817569.5564b>`
+.. unter diesem link öffnet `Node-BLUE <http://homegear-ip:2001/node-blue/>`
 
-.. image:: Node Blue.png
+.. image:: Node-BLUE.png
 
 In der linken Spalte befinden sich die Bausteine, die man für die Programmierung benötigt
 
@@ -24,4 +24,4 @@ So klickt und hält man die Maustaste gedrückt um den Baustein "Variable" aus d
 
 Alle Bausteine lassen sich so verschieben und verbinden 
 
-Wenn man eine Verbindung zwischen zwei Geräten hergestellt hat muss nur noch auf den Button "Deploy" in der Oberen Rechten Ecke gekickt werden und man kann die Verbindung sofort testen und gegebenenfalls anpassen 
+Wenn man eine Verbindung zwischen zwei Geräten hergestellt hat muss nur noch auf den Button "Deploy" in der Oberen Rechten Ecke gekickt werden und man kann die Verbindung sofort testen und gegebenenfalls anpassen

@@ -7,16 +7,16 @@
 3.1.1. Aufbau
 -------------
 
-.. Tipp:: ``Bevor sie starten, überprüfen sie bitte ob alle mitgelieferten Gegenstände in gutem Zustand sind.
+.. tip:: ``Bevor sie starten, überprüfen sie bitte ob alle mitgelieferten Gegenstände in gutem Zustand sind.
  Diese sind unter dem Verzeichnis "Source/einleitung/Mitgeliefert" aufgelistet.
  Sollten sie nicht im Guten Zustand oder nicht vollständig sein Senden sie sie bitte an uns zurück.``
 
 - Der erste Schritt ist die Homegear-Box mit dem mitgeliefertem Netzstromkabel zu verbinden, sowie den Netzstecker mit einer Steckdose in ihrem Haus.
   Nach dem das Netzkabel angeschlossen wurde leuchtet eine Rote Konroll-LED auf, die die Verbindung bestätigt.
 
-.. Achtung:: Wenn sie den Netzstecker ausstecken, um die Homegear-Box ausschalten, warten sie mindestens 5 Sekunden bevor sie sie wieder einstecken    
+.. caution:: Wenn Sie den Netzstecker ziehen, um die Homegear-Box ausschalten, warten sie mindestens 5 Sekunden bevor Sie diesen wieder einstecken.
 
-- Als nächstes wird noch das begefügte LANKabel benötigt, welches an die Homegear-Box und an die Netzwerksteckdose angeschlossen wird.
+- Als nächstes wird noch das begefügte LAN-Kabel benötigt, welches an die Homegear-Box und an die Netzwerksteckdose angeschlossen wird.
   Nach dem das Netzwerkkabel angeschlossen wurde leuchten zwei Kontroll-LEDs auf, grün(blinkend) und gelb(leuchtend). 
 
 Wer die Pro Version verwendet oder die zweite Box montieren will muss nur die mitgelieferte Brücke in die dafür vorgesehenen Steckverbindungen beider Boxen einsetzen um eine Verbindung zwischen der Homegear-Box und dem Adapter herzustellen
@@ -50,7 +50,7 @@ Das Programm wird die Geräte anzeigen, welche sich in der Nähe des Computers b
 
 Nachdem das Programm fertig ist muss nach "Raspberry Pi Foundation" gesucht werden, um die IP-Adresse(Name) zu finden
 
-.. Achtung:: In der Spalte wird jetzt der "Name" angezeigt, der aus einer **Reihe von Zahlen besteht**, diesen **Bitte in irgend einer Form speichern** 
+.. caution:: In der Spalte wird jetzt der "Name" angezeigt, der aus einer **Reihe von Zahlen besteht**, diesen **Bitte in irgend einer Form speichern** 
 
 Nun ist ihre Homegear-Box gefunden, um sich mit ihr zu verbinden muss "Name":2001/admin/ in den Internetbrowser eingegeben und mit der 
 Entertaste bestätigt werden  
@@ -59,7 +59,7 @@ Wenn die Verbindung aufgebaut wurde ist dieser Startseiteninhalt zu sehen
 
 .. image:: Startseite.png
 
-.. Anmeldung:: Hier dürfen sie sich einen Anmeldenamen/Benutzernamen ausdenken und ein Passwort überlegen, welches sie auch unbedingt in irgendeiner Form speichern sollten. Es spielt keine Rolle wie klein oder groß ihr Benutzername bzw. Passwort ist, dieser wird allein von Eingabespeicher begrenzt. Bitte geben sie dann anschliesend ihren Benutzernamen und ihr Passwort ein, bestätigen sie ihr Passwort und klicken sie auf "Anmelden".
+.. note:: Hier dürfen Sie sich einen Anmeldenamen/Benutzernamen ausdenken und ein Passwort überlegen, welches Sie auch unbedingt in irgendeiner Form speichern sollten. Es spielt keine Rolle wie klein oder groß ihr Benutzername bzw. Passwort ist, dieser wird allein von Eingabespeicher begrenzt. Bitte geben sie dann anschliesend ihren Benutzernamen und ihr Passwort ein, bestätigen sie ihr Passwort und klicken sie auf "Anmelden".
 
 .. image:: Dashboard.png
 
@@ -130,9 +130,9 @@ Wenn sie fertig sind klicken sie auf "Speichern".
 		Hier kann der Variablenname für die Geräte vergeben und auch der Type definiert werden
 		Auserdem ist sie "Global" und kann auch in anderen Programmierplattformen unter dem gleichen Namen verwendet werden 
 
-.. Tipp:: Es ist wichtig sich Räume Stockwerke oder Gruppen anzulegen um einen Überblick für alle angeschlossenen Systeme zu haben 
+.. tip:: Es ist wichtig sich Räume Stockwerke oder Gruppen anzulegen um einen Überblick für alle angeschlossenen Systeme zu haben 
 
-.. Anmerkung:: Die (Dateiformat)Familie oder Protokollfamilie ist auf jedem Gerät vermerkt
+.. note:: Die (Dateiformat)Familie oder Protokollfamilie ist auf jedem Gerät vermerkt
 
 
 
