@@ -7,9 +7,9 @@ Inbetriebnahme
 Aufbau
 ------
 
-.. tip:: ``Bevor sie starten, überprüfen sie bitte ob alle mitgelieferten Gegenstände in gutem Zustand sind.
+.. tip:: Bevor sie starten, überprüfen sie bitte ob alle mitgelieferten Gegenstände in gutem Zustand sind.
  Diese sind unter dem Verzeichnis "Source/einleitung/Mitgeliefert" aufgelistet.
- Sollten sie nicht im Guten Zustand oder nicht vollständig sein Senden sie sie bitte an uns zurück.``
+ Sollten sie nicht im Guten Zustand oder nicht vollständig sein Senden sie sie bitte an uns zurück.
 
 - Der erste Schritt ist die Homegear-Box mit dem mitgeliefertem Netzstromkabel zu verbinden, sowie den Netzstecker mit einer Steckdose in ihrem Haus.
   Nach dem das Netzkabel angeschlossen wurde leuchtet eine Rote Konroll-LED auf, die die Verbindung bestätigt.
@@ -105,7 +105,7 @@ Räume
 
 		Der Raumname ist beim anklicken des Bottens "Raum hinzufügen" zu erstellen bzw. zu ändern.
 		Wenn das Abschalten eines Raumes erwünscht wird kann dies so in z.B. Node Blude einfach eingestellt werden 
-		mehr dazu unter :ref:`Konfiguration <Link auf Konfiguration>`   
+		mehr dazu unter :ref:`Konfiguration <Link_auf_Konfiguration>`   
 
 
 Stockwerke
@@ -140,7 +140,7 @@ Programmierung
 
 Node-BLUE ist unsere Prgrammierplattform für die Verknüpfung der Geräte im Haus
 
-Hier werden die Verknüpfungen der Geräte bearbeitet, mehr dazu unter dem Punkt :ref:`Programmierung <Link auf Konfiguration>`
+Hier werden die Verknüpfungen der Geräte bearbeitet, mehr dazu unter dem Punkt :ref:`Programmierung <Link_auf_Konfiguration>`
 
 
 
