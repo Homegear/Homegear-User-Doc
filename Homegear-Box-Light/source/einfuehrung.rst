@@ -1,9 +1,11 @@
+.. image:: logo.png
 Einführung
 **********
-
+                                    
 Wofür wird Homegear benötigt
 ============================
 
+Homegear ist ein Smart Home System mit dem Ziel 
 Die Homegear-Box ist die komfortable und sichere Lösung zur Verknüpfung und 
 Kommunikation aller Arten von elektronischen Geräten im Haus.
 Die Box funktioniert als Übersetzter, Vermittler und Verwalter welche 
@@ -27,6 +29,7 @@ Software
 
 .. note:: Die Homegear-Box enthält alle vorinstallierte Programme, die für den sofortigen Einsatz benötigt werden
 
+.. _Link_auf_Hardware_Spezifikation:
 Hardware Spezifikation
 ----------------------
 
@@ -53,6 +56,7 @@ Hardware Spezifikation
 |                            |Rote Power LED             |
 +----------------------------+---------------------------+
 
+.. _Link_auf_Mitgeliefert:
 Mitgeliefert
 ============
 

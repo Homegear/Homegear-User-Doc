@@ -7,9 +7,10 @@ Inbetriebnahme
 Aufbau
 ------
 
-.. tip:: Bevor Sie starten, überprüfen Sie bitte ob alle mitgelieferten Gegenstände in gutem Zustand sind.
- Diese sind unter dem Verzeichnis "Source/einleitung/Mitgeliefert" aufgelistet.
- Sollten sie nicht im Guten Zustand oder nicht vollständig sein Senden Sie sie bitte an uns zurück.
+.. tip:: Bevor Sie starten, überprüfen Sie bitte ob alle mitgelieferten Gegenstände vollständig und in gutem Zustand sind.
+
+- Diese sind unter :ref:`Mitgeliefert <Link_auf_Mitgeliefert>` aufgelistet.
+  Sollten sie nicht im Guten Zustand oder nicht vollständig sein Senden Sie sie bitte an uns zurück.
 
 - Der erste Schritt ist die Homegear-Box mit dem mitgeliefertem Netzstromkabel zu verbinden, sowie den Netzstecker mit einer Steckdose in ihrem Haus.
   Nach dem das Netzkabel angeschlossen wurde leuchtet eine Rote Konroll-LED auf, die die Verbindung bestätigt.
@@ -32,8 +33,9 @@ Software
 2. Stellen Sie sicher, dass sich ihre Homegear-Box im gleichen Heimnetz befindet wir ihr Coumputer
 3. Starten Sie wenn nicht schon geschehen ihren PC, Labtop oder Sonstiges und öffnen Sie den Internetbrowser   
 
-- Um die Homegear-Box zu finden wird einen Internetprotokollscaner benötigt, der unter diesem Link herrunterladen werden kann:
-`Advanced IP Scanner <https://www.advanced-ip-scanner.com/de/>`
+- Um die Homegear-Box zu finden wird einen Internetprotokollscaner benötigt, der unter diesem Name herrunterladen werden kann:
+.. _Link_auf_Advanced_IP_Scanner:
+`Advanced IP Scanner <http://www.advanced-ip-scanner.com/de/>`
 
 Sobald der Download fertig ist kann das Programm aktivieren werden - bitte als Nächstes auf die Downloaddatei klicken, ausführen und 
 anschliesend die gewünschte Sprache wählen und mit "Ok" bestätigen 
@@ -48,14 +50,18 @@ Das Programm wird die Geräte anzeigen, welche sich in der Nähe des Computers b
 
 Nachdem das Programm fertig ist muss nach "Raspberry Pi Foundation" gesucht werden, um die IP-Adresse(Name) zu finden
 
-.. caution:: In der Spalte wird jetzt der "Name" angezeigt, der aus einer **Reihe von Zahlen besteht**, diesen **Bitte in irgend einer Form speichern** 
+.. caution:: In der Spalte wird jetzt der ""Name"" angezeigt, der aus einer **Reihe von Zahlen besteht**, diesen **Bitte in irgend einer Form speichern** - Beispiel: 192.168.9.999
 
-Nun ist ihre Homegear-Box gefunden, um sich mit ihr zu verbinden muss "Name":2001/admin/ in den Internetbrowser eingegeben und mit der 
-Entertaste bestätigt werden  
+Nun ist ihre Homegear-Box gefunden, um sich mit ihr zu verbinden muss ""Name"":2001/admin/ in den Internetbrowser eingegeben und mit der 
+Entertaste bestätigt werden - Beispiel: 192.168.9.999:2001/admin/
+
+Sollte es nicht funktionieren, überprüfen Sie bitte noch einmal ob die Eingabe bzw. der gefundene ""Name"" auch der richtige ist 
 
 Wenn die Verbindung aufgebaut wurde ist dieser Startseiteninhalt zu sehen
 
 .. image:: Startseite.png
+
+Der :ref:`Advanced IP Scanner <Link_auf_Advanced_IP_Scanner>` kann geschlossen bzw. gelöscht werden, er ist für die weitere Verwendung nicht mehr relevant 
 
 .. note:: Hier dürfen Sie sich einen Anmeldenamen/Benutzernamen ausdenken und ein Passwort überlegen, welches Sie auch unbedingt in irgendeiner Form speichern sollten. Es spielt keine Rolle wie klein oder groß ihr Benutzername bzw. Passwort ist, dieser wird allein vom Eingabespeicher begrenzt. Bitte geben Sie dann anschliesend ihren Benutzernamen und ihr Passwort ein, bestätigen Sie ihr Passwort und klicken Sie auf "Anmelden".
 
@@ -81,15 +87,15 @@ Wenn Sie fertig sind klicken Sie auf "Speichern".
 Inventar
 ^^^^^^^^
 
-Beim öffnen des Inventars werden folgende Unterpunkt ausgefahren
+Beim öffnen des Inventars werden folgende Unterpunkte ausgefahren
 
 .. image:: Geräte.png
 
 Geräte
 """"""
 
-Hier kann die (Dateiformat)Familie ausgewählt werden mit der das anzuschliesende Gerät arbeitet.
-nächster Punkt ist das Gerät selbst und der Type des Gateways 
+Hier kann die (Dateiformat)Familie ausgewählt werden mit der das anzuschliesende Gerät arbeitet
+Nächster Punkt ist das Gerät selbst und der Type des Gateways 
 
 .. note :: ein Gateway ist sowas wie ein Übersetzter, es übersetzt die Sprache eines Gerätes in die, mit der die Homegear-Box kommuniziert, wenn alle benötigten Gateways vorhanden sind können sich alle Geräte mitteinander verbinden (kommunizieren)
 
@@ -100,35 +106,36 @@ Gateways
 Hier kann die (Dateiformat)Familie und anschliesend auch der Type des Gateways ausgewählt werden
 
 
+
 Räume
 """""
 
-		Der Raumname ist beim anklicken des Bottens "Raum hinzufügen" zu erstellen bzw. zu ändern.
-		Wenn das Abschalten eines Raumes erwünscht wird kann dies so in z.B. Node Blude einfach eingestellt werden 
-		mehr dazu unter :ref:`Konfiguration <Link_auf_Konfiguration>`   
+Der Raumname ist beim anklicken des Bottens "Raum hinzufügen" zu erstellen bzw. zu ändern.
+Wenn das Abschalten eines Raumes erwünscht wird kann dies so in z.B. Node Blude einfach eingestellt werden 
+mehr dazu unter :ref:`Konfiguration <Link_auf_Konfiguration>`   
 
 
 Stockwerke
 """"""""""
 
-		Es hat die gleiche Funktion wie Räume, nur dass die Funktion Stockwerke alle Räume in diesem Stockwerk einbinden soll,
-		um ein ganze Wohnung oder Ebene im Haus auf einen Befehl hin ansteuern zu können 
+Es hat die gleiche Funktion wie Räume, nur dass die Funktion Stockwerke alle Räume in diesem Stockwerk einbinden soll,
+um ein ganze Wohnung oder Ebene im Haus auf einen Befehl hin ansteuern zu können 
 
 
 Gruppen
 """""""
 
-		Mit Gruppen sind Geräteverknüpfungen gemeint, die Sie gerne verbunden haben möchten und sich mit einem Befehl steuern lassen 
-		Somit lassen sich alle Lichter oder nur gewünschte Lichter-Gruppen kontrollieren, was sehr komfortabel ist   
+Mit Gruppen sind Geräteverknüpfungen gemeint, die Sie gerne verbunden haben möchten und sich mit einem Befehl steuern lassen 
+Somit lassen sich alle Lichter oder nur gewünschte Lichter-Gruppen kontrollieren, was sehr komfortabel ist   
 
 
 Variablen
 """""""""
 
-		Hier kann der Variablenname für die Geräte vergeben und auch der Type definiert werden
-		Auserdem ist sie "Global" und kann auch in anderen Programmierplattformen unter dem gleichen Namen verwendet werden 
+Hier kann der Variablenname für die Geräte vergeben und auch der Type definiert werden
+Auserdem ist sie "Global" und kann auch in anderen Programmierplattformen unter dem gleichen Namen verwendet werden 
 
-.. tip:: Es ist wichtig sich Räume Stockwerke oder Gruppen anzulegen um einen Überblick für alle angeschlossenen Systeme zu haben 
+.. tip:: Es ist wichtig sich Räume Stockwerke oder Gruppen anzulegen, um einen Überblick für alle angeschlossenen Systeme zu haben 
 
 .. note:: Die (Dateiformat)Familie oder Protokollfamilie ist auf jedem Gerät vermerkt
 
@@ -156,7 +163,8 @@ Hier befinden sich die Benutzter und Module welche gelistet werden wie im Invent
 Benutzter
 """""""""
 
-Hier kann der Benutzername, die Sicherung über ein Passwort und Zuweisung in eine Gruppe eingestellen
+Hier kann der Benutzername, die Sicherung über ein Passwort und die Zuweisung in eine Gruppe eingestellt werden
+Mit dieser Funktion können mehrere Personen mit verschieden vergebenen Berechtigungen Homegear steuern   
 
 
 Module
@@ -166,32 +174,42 @@ Hier werden die vorhandenen Module gelistet die geladen sind, es besteht die Mö
 
 
 
-
 Wartung
 ^^^^^^^
 
 .. image:: Wartung.png
 
-Dienste, Aktualisierungen und Sicherungen können hier überprüfen und eingesehen werden 
+Dienste, Aktualisierungen und Sicherungen können hier überprüft und eingesehen werden 
 
 
 Dienst
 """"""
 
-Wenn Sie die Zentrale neu startet wird Ihre "Homegear-Box" neu gestartet 
+Wenn Sie die Zentrale neu starten wird Ihre "Homegear-Box" neu gestartet, wenn etwas nicht mehr richtig funktioniert ist es zu empfehlen die Homegear-Box einmal Neu zu Starten  
 
 
 Aktualisierungen
 """"""""""""""""
 
-Wenn eine neue Aktualisierung vorliegt bitte auf den Button "Aktualisierungen installieren" klicken
+Wenn eine neue Aktualisierung vorliegt bitte auf den Button "Aktualisierungen installieren" klicken, wenn sie die Aktualisierungsbitten ignorieren, kann es schlimmstenfalls zur kompletten Funktionslosigkeit führen
+.. caution:: Bitte nehmen Sie sich die Zeit um die Aktualisierung durchzuführen 
 
 
 Sicherung
 """""""""
 
 Hier kann eine Sicherung erstellt oder bei Bedarf wiederhergestellt werden
+Um die eigene Pogrammierung vor Verlust zu schützen ist es hilfreich eine Sicherung nach jedem Benutzen zu erstellen, um bei Verlust diese wieder herstellen zu können  
 
 
-.. image:: logo.png
 
+Homegear-Box Eigenschaft
+------------------------
+
+Die Homegear-Box arbeitet mit den Funtionen eines Raspberry Pi's, deshalb verhält er sich wie ein kleiner aber normaler Computer
+
+Er bietet einen Desktop auf Linux basierend, sowie ein Ordnerverzeichnis, ein Rechentool und sonstige Fuktionen 
+
+Wer in als kleinen Computer verwenden will kann Monitor, Tastatur, Maus, Heatset :ref:`etc.<Link_auf_Hardware_Spezifikation>` anschliesen
+
+.. caution:: Aber Achtung wer nicht sicher ist was er tut sollte auf keinen Fall auf diese Option zugreifen, alle Änderungen die zu einem Funktionsverlust von Homegear führen müssen für die Wiederherstellung kostenpflichtig behoben werden.

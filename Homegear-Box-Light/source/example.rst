@@ -1,5 +1,5 @@
-Einführung
-**********
+Beispiel
+********
 
 Test.
 

@@ -13,7 +13,7 @@ Fragen an Sathya
 .. note:: Wird die IP-Adresse mit einem Namen versehen? wenn ja, nach welchem Name müssen die Kunden suchen, wenn der Scann abgeschlossen ist?
    Antwort von Sathya: Jein. Natürlich hat die Box einen Hostnamen, aber damit diese über den Namen ansprechbar ist, wird ein weiteres Protokoll benötigt, z. B. DNS.
 
-.. note:: Wie wird es mit Familien im Bezug auf Gateways gehandhabt?
+.. note:: Was ist der Unterschied zwischen Gateway und Familie?
    Antwort von Sathya: Die Frage verstehe ich nicht. Die Gateways können - wo implementiert - halbautomatisch konfiguriert werden.
 
 .. note:: Könnte noch irgendwie signalisiert werden, welcher Benutzer gerade online ist?
@@ -21,3 +21,6 @@ Fragen an Sathya
 
 .. note:: Was für Funktionen haben die verschiedenen Gruppen, die im "Benutzer bearbeiten" einstellen werden können?
    Antwort von Sathya: Vor allem werden die Gruppen für unterschiedliche Berechtigungen benötigt. Berechtigungen werden Gruppen zugewiesen, nicht Benutzern.
+
+.. note:: Wie sieht unser Nutzerprofil aus?
+	Anwort von Sathya: 
