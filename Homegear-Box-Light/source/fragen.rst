@@ -1,7 +1,7 @@
 Fragen an Sathya
 ****************
 
-.. note:: Macht es bei der Homegear-Box eigentlich einen Unterschied ob man sie herunterfährt oder einfach den Stecker zieht?
+.. note:: Macht es bei der Homegear-Box eigentlich einen Unterschied ob sie heruntergefahrt wird oder einfach den Stecker zieht?
    Antwort von Sathya: Nein
 
 .. note:: Werden die Familien vom Kunde installiert oder sind sie sie schon auf der Homegear-Box drauf?
@@ -16,8 +16,8 @@ Fragen an Sathya
 .. note:: Wie wird es mit Familien im Bezug auf Gateways gehandhabt?
    Antwort von Sathya: Die Frage verstehe ich nicht. Die Gateways können - wo implementiert - halbautomatisch konfiguriert werden.
 
-.. note:: Könnte mann noch einstellen, dass man sieht, welcher Benutzer gerade online ist?
+.. note:: Könnte noch irgendwie signalisiert werden, welcher Benutzer gerade online ist?
    Antwort von Sathya: Klar. Ist für Version 1 aber nicht geplant.
 
-.. note:: Was für Funktionen haben die verschiedenen Gruppen, die man im "Benutzer bearbeiten" einstellen kann?
+.. note:: Was für Funktionen haben die verschiedenen Gruppen, die im "Benutzer bearbeiten" einstellen werden können?
    Antwort von Sathya: Vor allem werden die Gruppen für unterschiedliche Berechtigungen benötigt. Berechtigungen werden Gruppen zugewiesen, nicht Benutzern.

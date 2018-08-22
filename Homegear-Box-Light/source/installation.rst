@@ -7,14 +7,14 @@ Inbetriebnahme
 Aufbau
 ------
 
-.. tip:: Bevor sie starten, überprüfen sie bitte ob alle mitgelieferten Gegenstände in gutem Zustand sind.
+.. tip:: Bevor Sie starten, überprüfen Sie bitte ob alle mitgelieferten Gegenstände in gutem Zustand sind.
  Diese sind unter dem Verzeichnis "Source/einleitung/Mitgeliefert" aufgelistet.
- Sollten sie nicht im Guten Zustand oder nicht vollständig sein Senden sie sie bitte an uns zurück.
+ Sollten sie nicht im Guten Zustand oder nicht vollständig sein Senden Sie sie bitte an uns zurück.
 
 - Der erste Schritt ist die Homegear-Box mit dem mitgeliefertem Netzstromkabel zu verbinden, sowie den Netzstecker mit einer Steckdose in ihrem Haus.
   Nach dem das Netzkabel angeschlossen wurde leuchtet eine Rote Konroll-LED auf, die die Verbindung bestätigt.
 
-.. caution:: Wenn Sie den Netzstecker ziehen, um die Homegear-Box ausschalten, warten sie mindestens 5 Sekunden bevor Sie diesen wieder einstecken.
+.. caution:: Wenn Sie den Netzstecker ziehen, um die Homegear-Box auszuschalten, warten Sie mindestens 5 Sekunden bevor Sie diesen wieder einstecken.
 
 - Als nächstes wird noch das begefügte LAN-Kabel benötigt, welches an die Homegear-Box und an die Netzwerksteckdose angeschlossen wird.
   Nach dem das Netzwerkkabel angeschlossen wurde leuchten zwei Kontroll-LEDs auf, grün(blinkend) und gelb(leuchtend). 
@@ -29,18 +29,18 @@ Software
 --------
 
 1. Voraussetztung ist ein Netzwerkfähiger PC, Labtop, Taplet oder Smartphone
-2. Stellen sie sicher, dass sich ihre Homegear-Box im gleichen Heimnetz befindet wir ihr Coumputer
-3. Starten sie wenn nicht schon geschehen ihren PC, Labtop oder Sonstiges und öffnen sie den Internetbrowser   
+2. Stellen Sie sicher, dass sich ihre Homegear-Box im gleichen Heimnetz befindet wir ihr Coumputer
+3. Starten Sie wenn nicht schon geschehen ihren PC, Labtop oder Sonstiges und öffnen Sie den Internetbrowser   
 
-Um die Homegear-Box zu finden braucht man einen Internetprotokollscaner, den man unter diesem Link herrunterladen kann:
+- Um die Homegear-Box zu finden wird einen Internetprotokollscaner benötigt, der unter diesem Link herrunterladen werden kann:
 `Advanced IP Scanner <https://www.advanced-ip-scanner.com/de/>`
 
-Sobald der Download fertig ist kann man das Programm aktivieren - bitte als Nächstes auf die Downloaddatei klicken, ausführen und 
+Sobald der Download fertig ist kann das Programm aktivieren werden - bitte als Nächstes auf die Downloaddatei klicken, ausführen und 
 anschliesend die gewünschte Sprache wählen und mit "Ok" bestätigen 
 
 Wer die Datei installieren möchte kann auf "Weiter >" klicken, wer sie sich nicht installieren will wählt den Punkt neben Ausführen an und klickt "Weiter >"
 
-Lesen sie bitte die Lizenzvereinbarung, klicken sie auf den Punkt neben "ich akzeptiere die Vereinbahrung" und bestätigen sie mit dem Button "Ausführen"
+Lesen Sie bitte die Lizenzvereinbarung, klicken Sie auf den Punkt neben "ich akzeptiere die Vereinbahrung" und bestätigen Sie mit dem Button "Ausführen"
 
 Das Fenster mit dem Namen "Advanced IP Scanner", dass sich nach der Bestätigung geöffnet hat enthält einen Button "Scannen", mit dem die Homegear-Box gesucht wird 
 
@@ -57,31 +57,31 @@ Wenn die Verbindung aufgebaut wurde ist dieser Startseiteninhalt zu sehen
 
 .. image:: Startseite.png
 
-.. note:: Hier dürfen Sie sich einen Anmeldenamen/Benutzernamen ausdenken und ein Passwort überlegen, welches Sie auch unbedingt in irgendeiner Form speichern sollten. Es spielt keine Rolle wie klein oder groß ihr Benutzername bzw. Passwort ist, dieser wird allein von Eingabespeicher begrenzt. Bitte geben sie dann anschliesend ihren Benutzernamen und ihr Passwort ein, bestätigen sie ihr Passwort und klicken sie auf "Anmelden".
+.. note:: Hier dürfen Sie sich einen Anmeldenamen/Benutzernamen ausdenken und ein Passwort überlegen, welches Sie auch unbedingt in irgendeiner Form speichern sollten. Es spielt keine Rolle wie klein oder groß ihr Benutzername bzw. Passwort ist, dieser wird allein vom Eingabespeicher begrenzt. Bitte geben Sie dann anschliesend ihren Benutzernamen und ihr Passwort ein, bestätigen Sie ihr Passwort und klicken Sie auf "Anmelden".
 
 .. image:: Dashboard.png
 
-Oben Rechts, wie im Bild gezeigt, wählt man zwischen den Sprachen Deutsch und Englisch aus, da die Voreinstellung Englisch ist, wird empfohlen aufgrund der Anleitung auf Deutsch umzuschalten
+Oben Rechts, wie im Bild gezeigt, wird zwischen den Sprachen Deutsch und Englisch gewechselt, da die Voreinstellung Englisch ist, wird empfohlen Aufgrund der Anleitung auf Deutsch umzuschalten
 
 .. image:: Sprache.png
 
-Neben dem gerade benutztem Symbol der Sprachauswähl ist eine Klingel zusehen, welche Fehlermeldungen entgegennimmt und anzeigt  
+Neben dem gerade benutztem Symbol der Sprachauswähl ist eine Symbol zu sehen, dass an eine Klocke oder Klingel erinnert, welche Fehlermeldungen entgegennimmt und anzeigt  
 
-Ihr Profil können sie über der rechten Oberen Button anwählen und änderen, 
-Auserdem können sie die Gruppe ändern auf die der Benutzer zugriff haben soll.  
+Ihr Profil können Sie über der rechten Oberen Button anwählen und änderen, 
+Auserdem können Sie die Gruppe ändern auf die der Benutzer Zugriff haben soll.  
 
 .. image:: Profil.png
 
 Wie zu sehen ist zeigt das Dashboard die Systeminformationen, installierte Module, Geräte und die Netzwerkschnittstellen auf.
-Es enthält die wichtigsten Technischen Daten, die sehr überschaubar einlesen kann.
-Wenn sie fertig sind klicken sie auf "Speichern".
+Es enthält die wichtigsten Technischen Daten, die sehr überschaubar einzulesen sind.
+Wenn Sie fertig sind klicken Sie auf "Speichern".
 
 
 
 Inventar
 ^^^^^^^^
 
-Öffnet man das Inventar werden folgende Unterpunkt ausgefahren
+Beim öffnen des Inventars werden folgende Unterpunkt ausgefahren
 
 .. image:: Geräte.png
 
@@ -111,15 +111,15 @@ Räume
 Stockwerke
 """"""""""
 
-		Es hat die Gleiche Funktion wie Räume, nur dass die Funktion Stockwerke alle Räume in diesem Stockwerk einbinden soll,
+		Es hat die gleiche Funktion wie Räume, nur dass die Funktion Stockwerke alle Räume in diesem Stockwerk einbinden soll,
 		um ein ganze Wohnung oder Ebene im Haus auf einen Befehl hin ansteuern zu können 
 
 
 Gruppen
 """""""
 
-		Mit Gruppen sind Geräteverknüpfungen gemeint, die man gerne verbunden hätte und sich mit einem Befehl steuern lassen 
-		Somit lassen sich alle Lichter oder nur gewünschte LichterGruppen kontrollieren, was sehr komfortabel ist   
+		Mit Gruppen sind Geräteverknüpfungen gemeint, die Sie gerne verbunden haben möchten und sich mit einem Befehl steuern lassen 
+		Somit lassen sich alle Lichter oder nur gewünschte Lichter-Gruppen kontrollieren, was sehr komfortabel ist   
 
 
 Variablen
@@ -150,13 +150,13 @@ Einstellungen
 
 .. image:: Einstellungen.png
 
-Hier befinden sich die Benutzter und Module welche wie gelistet werden wie im Inventar
+Hier befinden sich die Benutzter und Module welche gelistet werden wie im Inventar
 
 
 Benutzter
 """""""""
 
-Hier kann der Benutzername, die Sicherung über ein Passwort und Zuweisung in eine Gruppe eingestellt werden
+Hier kann der Benutzername, die Sicherung über ein Passwort und Zuweisung in eine Gruppe eingestellen
 
 
 Module
@@ -178,7 +178,7 @@ Dienste, Aktualisierungen und Sicherungen können hier überprüfen und eingeseh
 Dienst
 """"""
 
-Wenn man die Zentrale neu startet wird Ihre "Homegear-Box" neu gestartet 
+Wenn Sie die Zentrale neu startet wird Ihre "Homegear-Box" neu gestartet 
 
 
 Aktualisierungen

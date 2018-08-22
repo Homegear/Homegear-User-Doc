@@ -17,14 +17,17 @@ Node-BLUE ist die Programmierplattform mit der die Verknüpfung aller Geräte im
 .. image:: Node-BLUE.png
 
 
-In der linken Spalte befinden sich die Bausteine, die man für die Programmierung benötigt
+In der linken Spalte befinden sich die Bausteine, die für die Programmierung benötigt werden
 
-Klickt man beispielsweise auf "input" öffnet sich die darunter ein Abschnitt mit neun verschiedenen Punkten 
+Wird beispielsweise auf "input" geklickt, öffnet sich darunter ein Abschnitt mit neun verschiedenen Punkten 
 
-Angenommen man möchten ein Schalter mit einer Lampe verknüpfen, sodass die Lampe mit einem Tastendruck auf den Schalter aufleutet 
+Angenommen es soll ein Schalter mit einer Lampe verknüpft werden, sodass die Lampe mit einem Tastendruck auf den Schalter aufleutet 
 
-So klickt und hält man die Maustaste gedrückt um den Baustein "Variable" aus der linken Spalte in des Feld "Flow 1" zu bewegen
+So muss mit der Maus, auf den Bautein "Variable" aus der linken Spalte, gekickt und gehalten werden, um diesen in das Feld "Flow 1" zu bewegen
+
+Die Grauen Punkte an den Bausteinboxen können mit der gleichen Vorgehensweise zueinander verbunden werden, Schwarze geschwungene Linien signalisieren die Verbindung der Grauen Punkte
 
 Alle Bausteine lassen sich so verschieben und verbinden 
 
-Wenn man eine Verbindung zwischen zwei Geräten hergestellt hat muss nur noch auf den Button "Deploy" in der Oberen Rechten Ecke gekickt werden und man kann die Verbindung sofort testen und gegebenenfalls anpassen
+Wenn eine Verbindung zwischen zwei Geräten hergestellt ist muss nur noch auf den Button "Deploy" in der Oberen Rechten Ecke gekickt werden und die Verbindung kann sofort getestet und gegebenenfalls angepasst werden
+
