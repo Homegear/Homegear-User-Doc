@@ -29,7 +29,7 @@ Software
 
 .. note:: Die Homegear-Box enthält alle vorinstallierte Programme, die für den sofortigen Einsatz benötigt werden
 
-.. _Link_auf_Hardware_Spezifikation:
+.. _Link-auf-Hardware-Spezifikation:
 Hardware Spezifikation
 ----------------------
 
@@ -56,7 +56,7 @@ Hardware Spezifikation
 |                            |Rote Power LED             |
 +----------------------------+---------------------------+
 
-.. _Link_auf_Mitgeliefert:
+.. _Link-auf-Mitgeliefert:
 Mitgeliefert
 ============
 

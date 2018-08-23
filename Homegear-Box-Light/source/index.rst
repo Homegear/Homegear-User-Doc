@@ -16,6 +16,7 @@ Inhaltsverzeichnis
    rueckmeldung
    installation
    konfiguration
+   nodebluebausteine
    fragen
    schwierigkeiten
    lizenz

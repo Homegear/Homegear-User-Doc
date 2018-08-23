@@ -13,8 +13,11 @@ Fragen an Sathya
 .. note:: Wird die IP-Adresse mit einem Namen versehen? wenn ja, nach welchem Name müssen die Kunden suchen, wenn der Scann abgeschlossen ist?
    Antwort von Sathya: Jein. Natürlich hat die Box einen Hostnamen, aber damit diese über den Namen ansprechbar ist, wird ein weiteres Protokoll benötigt, z. B. DNS.
 
-.. note:: Was ist der Unterschied zwischen Gateway und Familie?
+.. note:: Was ist eine Gateway im Bezug auf Familien?
    Antwort von Sathya: Die Frage verstehe ich nicht. Die Gateways können - wo implementiert - halbautomatisch konfiguriert werden.
+
+.. note:: Was ist der Unterschied zwischen Gateway und Familie?
+   Antwort von Sathya: 
 
 .. note:: Könnte noch irgendwie signalisiert werden, welcher Benutzer gerade online ist?
    Antwort von Sathya: Klar. Ist für Version 1 aber nicht geplant.
@@ -24,3 +27,4 @@ Fragen an Sathya
 
 .. note:: Wie sieht unser Nutzerprofil aus?
 	Anwort von Sathya: 
+
