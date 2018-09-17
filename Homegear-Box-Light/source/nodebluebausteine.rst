@@ -5,7 +5,7 @@ Node-BLUE Bausteine
 > input
 =======
 
-In der Katekorie input werden ausgehende Informationsgeber geführt, welche die Steuereinheit bilden, mit der Ihr Smart Home bedient wird 
+In der Kategorie input werden ausgehende Informationsgeber geführt, welche die Steuereinheit bilden, mit der Ihr Smart Home bedient wird 
 
 
 serial
