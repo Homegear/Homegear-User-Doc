@@ -12,11 +12,11 @@ Inhaltsverzeichnis
    :maxdepth: 2
    :numbered:
 
-   einfuehrung
-   rueckmeldung
-   installation
-   konfiguration
-   nodebluebausteine
-   fragen
-   schwierigkeiten
+   einleitung
+   Lieferumfang
+   Technische Daten
+   Inbetriebnahme
+   Benutzeroberfläche
+   Feedback
    lizenz
+  
