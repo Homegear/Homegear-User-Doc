@@ -16,7 +16,8 @@ Inhaltsverzeichnis
    Lieferumfang
    Technische Daten
    Inbetriebnahme
-   Benutzeroberfläche
+   Geräteübersicht
+   Admin-Oberfläche
    Feedback
    lizenz
   

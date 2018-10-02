@@ -1,5 +1,5 @@
-Benutzeroberfläche
-##################
+Admin-Oberfläche
+################
 
 
 --hier wird ein Bild der Benutzeroberfläche sein
