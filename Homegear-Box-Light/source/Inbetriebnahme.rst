@@ -17,11 +17,11 @@ Zugriff
 =======
 Um zugriff auf die Homegear-Box zu bekommen, müssen sie zunächst an ihrem Computer die 
 Ip-Adresse der Box herausfinden. Diese können sie in ihrer Router-Geräteliste oder mit Hilfe 
-eines Programmes wie den "Advanced IP scanner", herausfinden. Anschließend müssen sie diese in 
+eines Programmes wie den **"Advanced IP scanner"**, herausfinden. Anschließend müssen sie diese in 
 ihrem Web-Browser mit folgenden Adress-zusätze eingeben:
 
-- " :2001/ " um auf die Geräteübersicht zu gelangen
-- " :2001/admin/ " um auf die Admin Oberfläche zu gelangen
-- " :2001/node-blue/ " um auf die Programmier Oberfläche zu gelangen.
+- "** :2001/** " um auf die Geräteübersicht zu gelangen
+- "** :2001/admin/** " um auf die Admin Oberfläche zu gelangen
+- "** :2001/node-blue/** " um auf die Programmier Oberfläche zu gelangen.
 
-Bsp: 192.168.0.100:2001/admin
+Bsp: **192.168.0.100:2001/admin**
