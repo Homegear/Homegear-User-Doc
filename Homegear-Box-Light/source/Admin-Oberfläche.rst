@@ -34,11 +34,12 @@ Geräte können beispielsweise Taster, Lampen, Regler, Lautsprecher... kurzum, s
 Gerät hinzufügen
 ^^^^^^^^^^^^^^^^
 
-.. note:: Bevor sie ein Gerät anlegen, sollten sie bereits :ref:`Gateways <L-Gateways>` angelegt haben.
 
-Danach klicken sie auf **"Gerät hinzufügen"** **(1)**. Anschließen wählen sie noch die Familie, 
+Um ein neues Gerät anzulegen, klicken sie auf **"Gerät hinzufügen"** **(1)**. Anschließen wählen sie noch die Familie, 
 das Gateway und das Gerät, welches sie hinzufügen wollen aus. Anschließend bestätigen sie das mit 
 dem Button **"Gerät hinzufügen"** **(2)**.
+
+.. note:: Bevor sie ein Gerät anlegen, sollten sie bereits Gateways angelegt haben.
 
 .. image:: Geräte-Final.png
 
@@ -64,7 +65,7 @@ Anschließend wählen sie die Familie und den Gateway Typ aus und bestätigen da
 Räume
 -----
 
-Hier können sie Räume anlegen und ihnen angelegte Geräte zuweisen.
+Hier können sie Räume anlegen und diesen angelegte Geräte und Variablen zuweisen. Somit behalten sie den Überblick, welches Gerät in dem jeweiligen Raum involviert ist. Angelegte Räume werden in der Visualisierung angezeigt.
 
 Raum hinzufügen
 ^^^^^^^^^^^^^^^
@@ -72,7 +73,10 @@ Raum hinzufügen
 .. note:: Bevor sie einen Raum anlegen, sollten sie bereits :ref:`Geräte <L-Geräte>` angelegt haben.
 
 Um einen Raum anzulegen, klicken sie auf **"Raum hinzufügen"** **(1)**. Anschließend müssen sie diesem einen Namen vergeben und Speichern.
-Danach können sie unter **"Raum ändern"** **(2)** diesem Geräte hinzufügen **(3)**. Anschließend Speichern **(4)**.
+Danach können sie unter **"Raum ändern"** **(2)** diesem Geräte hinzufügen **(3)**. Anschließend Speichern.
+
+
+.. image:: Räume-Final.png
 
 
 
@@ -81,28 +85,40 @@ Danach können sie unter **"Raum ändern"** **(2)** diesem Geräte hinzufügen *
 Stockwerke
 ----------
 
-Hier können sie Stockwerke anlegen, und ihnen angelegte Räume zuweisen.
+Hier können sie Stockwerke anlegen, und diesen angelegte Räume zuweisen. Somit behalten sie den Überblick, welche Räume in den jeweiligen Stockwerken vorhanden sind. Angelegte Räume werden in der Visualisierung angezeigt
 
 Stockwerk hinzufügen
 ^^^^^^^^^^^^^^^^^^^^
 
-Bevor sie ein Stockwerk anlegen, sollten sie bereits :ref:`Geräte <L-Geräte>` und :ref:`Räume <L-Räume>` angelegt haben.
+.. note::Bevor sie ein Stockwerk anlegen, sollten sie bereits Geräte und Räume  angelegt haben.
+
 Um ein Stockwerk anzulegen, klicken sie auf **"Stockwerk hinzufügen"** **(1)**. Anschließend müssen sie diesem einen Namen vergeben und Speichern.
-Danach können sie unter **"Stockwerk bearbeiten"** **(2)** diesem Räume hinzufügen **(3)**. Anschließend Speichern **(4)**.
+Danach können sie unter **"Stockwerk bearbeiten"** **(2)** diesem Räume hinzufügen **(3)**. Anschließend Speichern.
+
+
+.. image:: Stockwerke-Final.png
+
 
 
 
 Gruppen
 -------
 Gruppen können angelegt werden um einzelne Geräte zu Gruppieren. So können Beispielsweise Raum übergreifend alle Beleuchtungen verwaltet und Gesteuert werden.
+Gruppen werden in der Visualisierung angezeigt.
 
 
 Gruppe hinzufügen
 ^^^^^^^^^^^^^^^^^
 
-Bevor sie eine Gruppe anlegen, sollten sie bereits :ref:`Geräte <L-Geräte>` angelegt haben.
+..note::Bevor sie eine Gruppe anlegen, sollten sie bereits Geräte angelegt haben.
+
 Um eine Gruppe anzulegen, klicken sie auf **"Gruppe hinzufügen"** **(1)**. Anschließend müssen sie dieser einen Namen vergeben und Speichern.
-Danach können sie unter **"Gruppe bearbeiten"** **(2)** dieser Geräte hinzufügen **(3)**. Anschließend Speichern **(4)**.
+Danach können sie unter **"Gruppe bearbeiten"** **(2)** dieser Geräte hinzufügen **(3)**. Anschließend Speichern.
+
+
+.. image:: Gruppen-Final.png
+
+
 
 
 Variablen
@@ -120,7 +136,7 @@ Programmierung
 .. note:: Bevor sie mit der Programmierung anfangen können, müssen bereits Geräte so wie Räume, Stockwerke oder Gruppen angelegt sein
 
 Die Programmier Oberfläche können sie auf der Adminoberfläche unter **"Programmierung"** **(5.2)**, oder über ihren Browser mit der IP-Adresse und dem 
-zusatz "** :2001/node-blue/**" erreichen. Es erscheint zunächst ein Anmeldefenster, wo sie sich mit ihrem Benutzernamen und Kennwort anmelden müssen.
+zusatz ** :2001/node-blue/** erreichen. Es erscheint zunächst ein Anmeldefenster, wo sie sich mit ihrem Benutzernamen und Kennwort anmelden müssen.
 
 
 
