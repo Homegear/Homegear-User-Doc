@@ -136,7 +136,7 @@ Programmierung
 .. note:: Bevor sie mit der Programmierung anfangen können, müssen bereits Geräte so wie Räume, Stockwerke oder Gruppen angelegt sein
 
 Die Programmier Oberfläche können sie auf der Adminoberfläche unter **"Programmierung"** **(5.2)**, oder über ihren Browser mit der IP-Adresse und dem 
-zusatz ** :2001/node-blue/** erreichen. Es erscheint zunächst ein Anmeldefenster, wo sie sich mit ihrem Benutzernamen und Kennwort anmelden müssen.
+zusatz **:2001/node-blue/** erreichen. Es erscheint zunächst ein Anmeldefenster, wo sie sich mit ihrem Benutzernamen und Kennwort anmelden müssen.
 
 
 
