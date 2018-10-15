@@ -17,6 +17,7 @@ Inhaltsverzeichnis
    Technische Daten
    Inbetriebnahme
    Admin-Oberfläche
+   NodeBlue Bausteine
    Visualisierung
    Feedback
    lizenz

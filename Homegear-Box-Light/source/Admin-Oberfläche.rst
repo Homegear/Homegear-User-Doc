@@ -2,15 +2,15 @@ Admin-Oberfläche
 ################
 
 Um auf die Admin Oberfläche zu gelangen, geben sie die Ip-Adresse ihrer Homegear-Box mit dem zusatz
-"**:2001/admin/**" in ihren Web-Browser ein. Beim erststart, erscheint ein Fenster, wo sie zunächst einen
-Benutzername mit Kennwort hinterlegen müssen. Bei allen weiteren aufrufen müssen sie sich nurnoch damit Anmelden.
+"**:2001/admin/**" in ihren Web-Browser ein. Bei dem Erststart, erscheint ein Fenster, wo sie zunächst einen
+Benutzername mit Kennwort hinterlegen müssen. Bei allen weiteren aufrufen müssen sie sich nur noch damit Anmelden.
 
 Nachdem sie sich erfolgreich eingeloggt haben, erscheint das Dashboard auf der Administrations Oberfläche.
 Hier können sie Informationen zu System, Installierte Module, Geräte und Netzwerkschnittstellen entnehmen.
-In der rechten oberen ecke können sie unter:
+In der rechten oberen Ecke können sie unter:
 
 - **(1)** die Sprache einstellen
-- **(2)** System meldungen einsehen
+- **(2)** System Meldungen einsehen
 - **(3)** Profileinstellungen ändern und sich ausloggen
 
 
@@ -29,7 +29,7 @@ Geräte
 ------
 
 In der Geräte Liste werden alle verbundene Geräte angezeigt. Hier können auch neue Geräte hinzugefügt werden. 
-Geräte können beispielsweise Taster, Lampen, Regler, Lautsprecher... kurzum, sensoren und Aktoren sein.
+Geräte können beispielsweise Taster, Lampen, Regler, Lautsprecher... kurzum, Sensoren und Aktoren sein.
 
 Gerät hinzufügen
 ^^^^^^^^^^^^^^^^
@@ -65,7 +65,7 @@ Anschließend wählen sie die Familie und den Gateway Typ aus und bestätigen da
 Räume
 -----
 
-Hier können sie Räume anlegen und diesen angelegte Geräte und Variablen zuweisen. Somit behalten sie den Überblick, welches Gerät in dem jeweiligen Raum involviert ist. Angelegte Räume werden in der Visualisierung angezeigt.
+Hier können sie Räume anlegen und ihnen angelegte Geräte und Variablen zuweisen. Somit behalten sie den Überblick, welches Gerät in dem jeweiligen Raum involviert ist. Angelegte Räume werden in der Visualisierung angezeigt.
 
 Raum hinzufügen
 ^^^^^^^^^^^^^^^
@@ -85,7 +85,7 @@ Danach können sie unter **"Raum ändern"** **(2)** diesem Geräte hinzufügen *
 Stockwerke
 ----------
 
-Hier können sie Stockwerke anlegen, und diesen angelegte Räume zuweisen. Somit behalten sie den Überblick, welche Räume in den jeweiligen Stockwerken vorhanden sind. Angelegte Räume werden in der Visualisierung angezeigt
+Hier können sie Stockwerke anlegen, und ihnen angelegte Räume zuweisen. Somit behalten sie den Überblick, welche Räume in den jeweiligen Stockwerken vorhanden sind. Angelegte Räume werden in der Visualisierung angezeigt
 
 Stockwerk hinzufügen
 ^^^^^^^^^^^^^^^^^^^^
@@ -103,7 +103,7 @@ Danach können sie unter **"Stockwerk bearbeiten"** **(2)** diesem Räume hinzuf
 
 Gruppen
 -------
-Gruppen können angelegt werden um einzelne Geräte zu Gruppieren. So können Beispielsweise Raum übergreifend alle Beleuchtungen verwaltet und Gesteuert werden.
+Gruppen können angelegt werden um einzelne Geräte zu Gruppieren. So können beispielsweise Raum übergreifend alle Beleuchtungen verwaltet und gesteuert werden.
 Gruppen werden in der Visualisierung angezeigt.
 
 
@@ -131,11 +131,11 @@ Variable hinzufügen
 Programmierung
 ==============
 
-**Node-BLUE** ist unsere Programmier Oberfläche. Hier können sie Geräte miteinander verknüpfen und Abhängigkeiten erstellen, so wie Steuerungen für ihre Räume, Stockwerke oder Gruppen realisieren.
+**Node-BLUE** ist unsere Programmier Oberfläche. Hier können sie Geräte miteinander verknüpfen und Abhängigkeiten erstellen, sowie Steuerungen für ihre Räume, Stockwerke oder Gruppen realisieren.
 
-.. note:: Bevor sie mit der Programmierung anfangen können, müssen bereits Geräte so wie Räume, Stockwerke oder Gruppen angelegt sein
+.. note:: Bevor sie mit der Programmierung anfangen können, müssen bereits Geräte sowie Räume, Stockwerke oder Gruppen angelegt sein
 
-Die Programmier Oberfläche können sie auf der Adminoberfläche unter **"Programmierung"** **(5.2)**, oder über ihren Browser mit der IP-Adresse und dem 
+Die Programmier Oberfläche können sie auf der Admin Oberfläche unter **"Programmierung"** **(5.2)**, oder über ihren Browser mit der IP-Adresse und dem 
 zusatz **:2001/node-blue/** erreichen. Es erscheint zunächst ein Anmeldefenster, wo sie sich mit ihrem Benutzernamen und Kennwort anmelden müssen.
 
 

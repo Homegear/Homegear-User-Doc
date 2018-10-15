@@ -1,0 +1,322 @@
+.. _Link-auf-Node-BLUE-Bausteine:
+Node-BLUE Bausteine
+*******************
+
+> input
+=======
+
+
+
+mqtt
+----
+.. image:: mqtt.png
+
+
+
+link
+----
+.. image:: link.png
+
+
+constant
+--------
+.. image:: constant.png
+
+
+
+variable
+--------
+.. image:: variable.png
+
+
+
+modbus
+------
+.. image:: modbus.png
+
+
+
+gpio
+----
+.. image:: gpio.png
+
+
+
+http
+----
+.. image:: http.png
+
+
+http request
+------------
+.. image:: httprequest.png
+
+
+serial
+------
+.. image:: serial.png
+
+
+
+
+
+> output
+========
+
+
+light
+-----
+.. image:: light.png
+
+
+mqtt
+----
+.. image:: mqttoutput.png
+
+
+debug
+-----
+.. image:: debug.png
+
+
+
+link
+----
+.. image:: linkoutput.png
+
+
+variable
+--------
+.. image:: variableoutput.png
+
+
+toggle
+------
+.. image:: toggle.png
+
+
+modbus
+------
+.. image:: modbuoutput.png
+
+
+gpio
+----
+.. image:: gpiooutput.png
+
+
+http response
+-------------
+.. image:: httpresponse.png
+
+
+serial
+------
+.. image:: serialoutput.png
+
+
+
+> function
+==========
+
+ping
+----
+.. image:: ping.png
+
+
+average
+-------
+.. image:: average.png
+
+
+pulsecounter
+------------
+.. image:: pulsecounter.png
+
+
+synchronous
+-----------
+.. image:: synchronous1.png
+
+
+function
+--------
+.. image:: function1.png
+
+
+press pattern
+-------------
+.. image:: presspattern.png
+
+
+template
+--------
+.. image:: template.png
+
+
+
+> storage
+=========
+
+
+file
+----
+.. image:: file.png
+
+
+
+> time
+======
+
+
+off delay
+---------
+.. image:: offdelay.png
+
+
+
+impulse
+-------
+.. image:: impulse.png
+
+
+sun position
+------------
+.. image:: sunposition.png
+
+
+
+delay
+-----
+.. image:: delay.png
+
+
+
+clock
+-----
+.. image:: clock.png
+
+
+on delay
+--------
+.. image:: ondelay.png
+
+
+
+slow pwm
+--------
+.. image:: solwpwm.png
+
+
+
+interval
+--------
+.. image:: interval.png
+
+
+timer
+-----
+.. image:: timer.png
+
+
+
+> parsers
+=========
+
+
+xml
+---
+.. image:: xml.png
+
+
+json
+----
+.. image:: json.png
+
+
+
+
+> logic
+=======
+
+
+or
+---
+.. image:: or1.png 
+
+
+srflipflop
+----------
+.. image:: srflipflop.png
+
+
+risingedge
+----------
+.. image:: risingedge.png
+
+
+not
+---
+.. image:: not.png
+
+
+fallingedge
+-----------
+.. image:: fallingedge.png
+
+
+switch
+------
+.. image:: swtich.png
+
+
+and
+---
+.. image:: and1.png
+
+
+
+> general
+=========
+
+
+passthrough
+-----------
+.. image:: passthrough.png
+
+
+comment
+-------
+.. image:: comment.png
+
+
+
+> heating
+=========
+
+
+controller
+----------
+.. image:: controller.png
+
+
+
+
+> database
+==========
+
+
+influxdb
+--------
+.. image:: influxdb.png
+
+
+
+> notification
+==============
+
+
+xmpp
+----
+.. image:: xmpp.png
+
