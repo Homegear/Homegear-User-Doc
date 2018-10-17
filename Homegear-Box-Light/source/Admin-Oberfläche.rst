@@ -127,6 +127,15 @@ Variablen
 Variable hinzufügen
 ^^^^^^^^^^^^^^^^^^^
 
+Um eine Variable anzulegen, klicken sie auf **"Variable hinzufügen"** **(1)**. Anschließend müssen sie dieser einen Namen vergeben und Speichern.
+Danach können sie unter **"Variable bearbeiten"** **(2)** dieser einen Raum und eine Gruppe zuweisen **(3)**. Anschließend Speichern.
+
+.. image:: Variablen.PNG
+
+
+
+
+
 
 Programmierung
 ==============

@@ -2,8 +2,8 @@
 Node-BLUE Bausteine
 *******************
 
-> input
-=======
+**input**
+=========
 
 
 
@@ -60,8 +60,8 @@ serial
 
 
 
-> output
-========
+**output**
+==========
 
 
 light
@@ -97,7 +97,7 @@ toggle
 
 modbus
 ------
-.. image:: modbuoutput.png
+.. image:: modbusoutput.png
 
 
 gpio
@@ -116,8 +116,9 @@ serial
 
 
 
-> function
-==========
+
+**function**
+============
 
 ping
 ----
@@ -155,8 +156,8 @@ template
 
 
 
-> storage
-=========
+**storage**
+===========
 
 
 file
@@ -165,8 +166,8 @@ file
 
 
 
-> time
-======
+**time**
+========
 
 
 off delay
@@ -205,7 +206,7 @@ on delay
 
 slow pwm
 --------
-.. image:: solwpwm.png
+.. image:: slowpwm.png
 
 
 
@@ -220,8 +221,8 @@ timer
 
 
 
-> parsers
-=========
+**parsers**
+===========
 
 
 xml
@@ -236,18 +237,8 @@ json
 
 
 
-> logic
-=======
-
-
-or
----
-.. image:: or1.png 
-
-
-srflipflop
-----------
-.. image:: srflipflop.png
+**logic**
+=========
 
 
 risingedge
@@ -255,9 +246,9 @@ risingedge
 .. image:: risingedge.png
 
 
-not
+and
 ---
-.. image:: not.png
+.. image:: and1.png
 
 
 fallingedge
@@ -265,24 +256,32 @@ fallingedge
 .. image:: fallingedge.png
 
 
+not
+---
+.. image:: not.png
+
+
 switch
 ------
-.. image:: swtich.png
+.. image:: switch.png
 
 
-and
+or
 ---
-.. image:: and1.png
+.. image:: or.png 
+
+
+srflipflop
+----------
+.. image:: srflipflop.png
 
 
 
-> general
-=========
 
 
-passthrough
------------
-.. image:: passthrough.png
+
+**general**
+===========
 
 
 comment
@@ -290,9 +289,14 @@ comment
 .. image:: comment.png
 
 
+passthrough
+-----------
+.. image:: passthrough.png
 
-> heating
-=========
+
+
+**heating**
+===========
 
 
 controller
@@ -302,8 +306,8 @@ controller
 
 
 
-> database
-==========
+**database**
+============
 
 
 influxdb
@@ -312,11 +316,12 @@ influxdb
 
 
 
-> notification
-==============
+**notification**
+================
 
 
 xmpp
 ----
 .. image:: xmpp.png
+
 
