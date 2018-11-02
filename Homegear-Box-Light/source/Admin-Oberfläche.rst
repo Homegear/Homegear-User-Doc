@@ -149,5 +149,40 @@ zusatz **:2001/node-blue/** erreichen. Es erscheint zunächst ein Anmeldefenster
 
 
 
+Einstellungen
+=============
+
+Benutzer
+--------
+
+Hier können sie neue Benutzer anlegen und ihnen Gruppen zuweisen, damit diese entweder auf das gesamte- oder auf bestimmte Teile des Systems zugreifen können.
+
+Mögliche Gruppen sind:
+
+- Administrators
+- Script Engine
+- IPC
+- Node-BLUE
+- Event Handler
+- MQTT
+- Family Modules
+- No User
+- Unauthorized
+
+
+Benutzer hinzufügen
+^^^^^^^^^^^^^^^^^^^
+Um einen neuen Benutzer anzulegen, klicken sie auf **"Benutzer hinzufügen"** **(1)**. Anschließend benennen sie diesen, und weisen sie ihm die nötigen Gruppen zu. Nach dem erfolgreichen Anlegen, können sie unter **"Benutzer bearbeiten"** **(2)** weitere Einstellungen vornehmen.
+
+.. image:: Benutzer.png
+
+
+
+
+Module
+------
+
+
+
 
 
